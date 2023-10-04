@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.749757962329">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.5.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Linux / MacOS | FreeMediaHeckYeah</title>
+    <meta name="title" content="Linux / MacOS | FreeMediaHeckYeah">
+    <meta name="description" content="Apps, Software Sites, Gaming">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://fmhy.pages.dev/linuxguide/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fmhy.pages.dev/linuxguide/">
+    <meta property="og:title" content="Linux / MacOS | FreeMediaHeckYeah">
+    <meta property="og:description" content="Apps, Software Sites, Gaming">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fmhy.pages.dev/linuxguide/">
+    <meta property="twitter:title" content="Linux / MacOS | FreeMediaHeckYeah">
+    <meta property="twitter:description" content="Apps, Software Sites, Gaming">
+
+    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../static/favicon.ico" rel="icon">
+    <link href="../resources/css/retype.css?v=3.5.0.749757962329" rel="stylesheet">
+
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.749757962329" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.749757962329" data-turbo-eval="false" defer></script>
+
+    <link rel="stylesheet" href="static/styles.css">
+
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../static/fmhy.ico">
+                                <img class="max-h-10 hidden dark:inline-block" src="../static/fmhy.ico">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">FMHY</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fmhy.divolt.xyz/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m3,0C1.35,0,0,1.35,0,3v13.5c0,1.65,1.35,3,3,3h4.5v3.75c0,.29.16.54.41.67.25.13.56.1.79-.07l5.8-4.35h6.5c1.65,0,3-1.35,3-3V3c0-1.65-1.35-3-3-3H3Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Chat</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fmhy-search.streamlit.app/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m19.5,9.75c0,2.15-.7,4.14-1.88,5.75l5.93,5.94c.59.59.59,1.54,0,2.12-.59.59-1.54.59-2.12,0l-5.93-5.94c-1.61,1.18-3.6,1.87-5.75,1.87C4.36,19.5,0,15.13,0,9.75S4.36,0,9.75,0s9.75,4.36,9.75,9.75Zm-9.75,6.75c3.73,0,6.75-3.02,6.75-6.75s-3.02-6.75-6.75-6.75-6.75,3.02-6.75,6.75,3.02,6.75,6.75,6.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Search</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m9.36,14.4c-.67,0-1.2-.54-1.2-1.19s.54-1.2,1.2-1.2,1.19.54,1.19,1.2-.54,1.19-1.19,1.19Zm14.64-2.4c0,6.63-5.37,12-12,12S0,18.63,0,12,5.37,0,12,0s12,5.37,12,12Zm-6.4-1.99c-.45,0-.86.19-1.15.48-1.08-.75-2.55-1.23-4.17-1.29l.84-3.79,2.68.6c0,.66.54,1.19,1.19,1.19s1.2-.55,1.2-1.2-.54-1.2-1.2-1.2c-.47,0-.87.28-1.07.67l-2.96-.66c-.15-.04-.3.07-.33.21l-.92,4.18c-1.61.07-3.05.55-4.14,1.3-.3-.31-.71-.49-1.17-.49-1.69,0-2.24,2.27-.7,3.04-.05.24-.08.49-.08.75,0,2.55,2.86,4.61,6.39,4.61s6.4-2.06,6.4-4.61c0-.26-.03-.52-.09-.76,1.51-.77.96-3.02-.72-3.02Zm-3.33,5.62c-.88.88-3.68.87-4.53,0-.11-.11-.3-.11-.4,0-.12.12-.12.31,0,.42,1.1,1.1,4.22,1.1,5.33,0,.12-.11.12-.3,0-.42-.11-.11-.3-.11-.4,0Zm.37-3.63c-.66,0-1.19.54-1.19,1.2s.54,1.19,1.19,1.19,1.2-.54,1.2-1.19-.53-1.2-1.2-1.2Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Reddit</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/fmhy">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m8.03,19.32c0,.1-.11.18-.25.18-.16.01-.27-.06-.27-.18,0-.1.11-.18.25-.18.15-.01.27.06.27.18Zm-1.5-.22c-.03.1.06.21.21.24.13.05.27,0,.3-.1s-.06-.21-.21-.26c-.13-.03-.27.01-.3.11Zm2.14-.08c-.14.03-.24.13-.22.24.01.1.14.16.29.13.14-.03.24-.13.22-.23-.01-.09-.15-.16-.29-.14ZM11.85,0C5.13,0,0,5.23,0,12.11c0,5.5,3.38,10.21,8.2,11.87.62.11.84-.28.84-.6s-.01-2-.01-3.05c0,0-3.39.74-4.1-1.48,0,0-.55-1.44-1.35-1.82,0,0-1.11-.78.08-.76,0,0,1.2.1,1.87,1.28,1.06,1.92,2.84,1.36,3.53,1.04.11-.79.43-1.34.77-1.67-2.7-.31-5.43-.71-5.43-5.48,0-1.36.37-2.05,1.14-2.92-.13-.32-.54-1.65.13-3.37,1.01-.32,3.34,1.34,3.34,1.34.97-.28,2.01-.42,3.04-.42s2.07.14,3.04.42c0,0,2.33-1.67,3.34-1.34.66,1.72.25,3.05.13,3.37.77.88,1.25,1.56,1.25,2.92,0,4.79-2.85,5.17-5.55,5.48.45.39.82,1.14.82,2.3,0,1.67-.01,3.74-.01,4.15,0,.32.22.71.84.6,4.84-1.65,8.12-6.36,8.12-11.86C24,5.23,18.56,0,11.85,0Zm-7.14,17.12c-.06.05-.05.16.03.26.08.08.19.11.25.05.06-.05.05-.16-.03-.26-.08-.08-.19-.11-.25-.05Zm-.52-.4c-.03.06.01.14.11.19.08.05.17.03.21-.03.03-.06-.01-.14-.11-.19-.1-.03-.17-.01-.21.03Zm1.57,1.77c-.08.06-.05.21.06.31.11.11.25.13.31.05.06-.06.03-.21-.06-.31-.11-.11-.25-.13-.31-.05Zm-.55-.73c-.08.05-.08.18,0,.29s.21.16.27.11c.08-.06.08-.19,0-.31-.07-.11-.19-.16-.27-.1Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Github</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/updates/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M9.197 10a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-2.382 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-1.581 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z"/><path d="M4.125 0h15.75a4.11 4.11 0 0 1 2.92 1.205A4.11 4.11 0 0 1 24 4.125c0 1.384-.476 2.794-1.128 4.16-.652 1.365-1.515 2.757-2.352 4.104l-.008.013c-.849 1.368-1.669 2.691-2.28 3.97-.614 1.283-.982 2.45-.982 3.503a2.625 2.625 0 1 0 4.083-2.183.75.75 0 1 1 .834-1.247A4.126 4.126 0 0 1 19.875 24H4.5a4.125 4.125 0 0 1-4.125-4.125c0-2.234 1.258-4.656 2.59-6.902.348-.586.702-1.162 1.05-1.728.8-1.304 1.567-2.553 2.144-3.738H3.39c-.823 0-1.886-.193-2.567-1.035A3.647 3.647 0 0 1 0 4.125 4.125 4.125 0 0 1 4.125 0ZM15.75 19.875c0-1.38.476-2.786 1.128-4.15.649-1.358 1.509-2.743 2.343-4.086l.017-.028c.849-1.367 1.669-2.692 2.28-3.972.614-1.285.982-2.457.982-3.514A2.615 2.615 0 0 0 19.875 1.5a2.625 2.625 0 0 0-2.625 2.625c0 .865.421 1.509 1.167 2.009A.75.75 0 0 1 18 7.507H7.812c-.65 1.483-1.624 3.069-2.577 4.619-.334.544-.666 1.083-.98 1.612-1.355 2.287-2.38 4.371-2.38 6.137A2.625 2.625 0 0 0 4.5 22.5h12.193a4.108 4.108 0 0 1-.943-2.625ZM1.5 4.125c-.01.511.163 1.008.487 1.403.254.313.74.479 1.402.479h12.86a3.648 3.648 0 0 1-.499-1.882 4.11 4.11 0 0 1 .943-2.625H4.125A2.625 2.625 0 0 0 1.5 4.125Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Updates</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-gray-400 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 dark:placeholder-dark-400" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-dark-650">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fmhy.divolt.xyz/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m3,0C1.35,0,0,1.35,0,3v13.5c0,1.65,1.35,3,3,3h4.5v3.75c0,.29.16.54.41.67.25.13.56.1.79-.07l5.8-4.35h6.5c1.65,0,3-1.35,3-3V3c0-1.65-1.35-3-3-3H3Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Chat</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fmhy-search.streamlit.app/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m19.5,9.75c0,2.15-.7,4.14-1.88,5.75l5.93,5.94c.59.59.59,1.54,0,2.12-.59.59-1.54.59-2.12,0l-5.93-5.94c-1.61,1.18-3.6,1.87-5.75,1.87C4.36,19.5,0,15.13,0,9.75S4.36,0,9.75,0s9.75,4.36,9.75,9.75Zm-9.75,6.75c3.73,0,6.75-3.02,6.75-6.75s-3.02-6.75-6.75-6.75-6.75,3.02-6.75,6.75,3.02,6.75,6.75,6.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Search</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m9.36,14.4c-.67,0-1.2-.54-1.2-1.19s.54-1.2,1.2-1.2,1.19.54,1.19,1.2-.54,1.19-1.19,1.19Zm14.64-2.4c0,6.63-5.37,12-12,12S0,18.63,0,12,5.37,0,12,0s12,5.37,12,12Zm-6.4-1.99c-.45,0-.86.19-1.15.48-1.08-.75-2.55-1.23-4.17-1.29l.84-3.79,2.68.6c0,.66.54,1.19,1.19,1.19s1.2-.55,1.2-1.2-.54-1.2-1.2-1.2c-.47,0-.87.28-1.07.67l-2.96-.66c-.15-.04-.3.07-.33.21l-.92,4.18c-1.61.07-3.05.55-4.14,1.3-.3-.31-.71-.49-1.17-.49-1.69,0-2.24,2.27-.7,3.04-.05.24-.08.49-.08.75,0,2.55,2.86,4.61,6.39,4.61s6.4-2.06,6.4-4.61c0-.26-.03-.52-.09-.76,1.51-.77.96-3.02-.72-3.02Zm-3.33,5.62c-.88.88-3.68.87-4.53,0-.11-.11-.3-.11-.4,0-.12.12-.12.31,0,.42,1.1,1.1,4.22,1.1,5.33,0,.12-.11.12-.3,0-.42-.11-.11-.3-.11-.4,0Zm.37-3.63c-.66,0-1.19.54-1.19,1.2s.54,1.19,1.19,1.19,1.2-.54,1.2-1.19-.53-1.2-1.2-1.2Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Reddit</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/fmhy">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m8.03,19.32c0,.1-.11.18-.25.18-.16.01-.27-.06-.27-.18,0-.1.11-.18.25-.18.15-.01.27.06.27.18Zm-1.5-.22c-.03.1.06.21.21.24.13.05.27,0,.3-.1s-.06-.21-.21-.26c-.13-.03-.27.01-.3.11Zm2.14-.08c-.14.03-.24.13-.22.24.01.1.14.16.29.13.14-.03.24-.13.22-.23-.01-.09-.15-.16-.29-.14ZM11.85,0C5.13,0,0,5.23,0,12.11c0,5.5,3.38,10.21,8.2,11.87.62.11.84-.28.84-.6s-.01-2-.01-3.05c0,0-3.39.74-4.1-1.48,0,0-.55-1.44-1.35-1.82,0,0-1.11-.78.08-.76,0,0,1.2.1,1.87,1.28,1.06,1.92,2.84,1.36,3.53,1.04.11-.79.43-1.34.77-1.67-2.7-.31-5.43-.71-5.43-5.48,0-1.36.37-2.05,1.14-2.92-.13-.32-.54-1.65.13-3.37,1.01-.32,3.34,1.34,3.34,1.34.97-.28,2.01-.42,3.04-.42s2.07.14,3.04.42c0,0,2.33-1.67,3.34-1.34.66,1.72.25,3.05.13,3.37.77.88,1.25,1.56,1.25,2.92,0,4.79-2.85,5.17-5.55,5.48.45.39.82,1.14.82,2.3,0,1.67-.01,3.74-.01,4.15,0,.32.22.71.84.6,4.84-1.65,8.12-6.36,8.12-11.86C24,5.23,18.56,0,11.85,0Zm-7.14,17.12c-.06.05-.05.16.03.26.08.08.19.11.25.05.06-.05.05-.16-.03-.26-.08-.08-.19-.11-.25-.05Zm-.52-.4c-.03.06.01.14.11.19.08.05.17.03.21-.03.03-.06-.01-.14-.11-.19-.1-.03-.17-.01-.21.03Zm1.57,1.77c-.08.06-.05.21.06.31.11.11.25.13.31.05.06-.06.03-.21-.06-.31-.11-.11-.25-.13-.31-.05Zm-.55-.73c-.08.05-.08.18,0,.29s.21.16.27.11c.08-.06.08-.19,0-.31-.07-.11-.19-.16-.27-.1Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Github</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/updates/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M9.197 10a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-2.382 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-1.581 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z"/><path d="M4.125 0h15.75a4.11 4.11 0 0 1 2.92 1.205A4.11 4.11 0 0 1 24 4.125c0 1.384-.476 2.794-1.128 4.16-.652 1.365-1.515 2.757-2.352 4.104l-.008.013c-.849 1.368-1.669 2.691-2.28 3.97-.614 1.283-.982 2.45-.982 3.503a2.625 2.625 0 1 0 4.083-2.183.75.75 0 1 1 .834-1.247A4.126 4.126 0 0 1 19.875 24H4.5a4.125 4.125 0 0 1-4.125-4.125c0-2.234 1.258-4.656 2.59-6.902.348-.586.702-1.162 1.05-1.728.8-1.304 1.567-2.553 2.144-3.738H3.39c-.823 0-1.886-.193-2.567-1.035A3.647 3.647 0 0 1 0 4.125 4.125 4.125 0 0 1 4.125 0ZM15.75 19.875c0-1.38.476-2.786 1.128-4.15.649-1.358 1.509-2.743 2.343-4.086l.017-.028c.849-1.367 1.669-2.692 2.28-3.972.614-1.285.982-2.457.982-3.514A2.615 2.615 0 0 0 19.875 1.5a2.625 2.625 0 0 0-2.625 2.625c0 .865.421 1.509 1.167 2.009A.75.75 0 0 1 18 7.507H7.812c-.65 1.483-1.624 3.069-2.577 4.619-.334.544-.666 1.083-.98 1.612-1.355 2.287-2.38 4.371-2.38 6.137A2.625 2.625 0 0 0 4.5 22.5h12.193a4.108 4.108 0 0 1-.943-2.625ZM1.5 4.125c-.01.511.163 1.008.487 1.403.254.313.74.479 1.402.479h12.86a3.648 3.648 0 0 1-.499-1.882 4.11 4.11 0 0 1 .943-2.625H4.125A2.625 2.625 0 0 0 1.5 4.125Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Updates</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<doc-anchor-target id="linux--macos" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#linux--macos">#</doc-anchor-trigger>
+        <span>Linux / MacOS</span>
+    </h1>
+</doc-anchor-target>
+<p>Apps, Software Sites, Gaming</p>
+<doc-anchor-target id="linux-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#linux-tools">#</doc-anchor-trigger>
+        <span>Linux Tools</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="adblock--privacy">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#adblock--privacy">#</doc-anchor-trigger>
+        <span>Adblock / Privacy</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/xvzc/SpoofDPI">SpoofDPI</a></strong>, <a href="https://github.com/bol-van/zapret">zapret</a> or <strong><a href="https://github.com/krlvm/PowerTunnel">PowerTunnel</a></strong> - DPI circumvention</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://librewolf.net/">Librewolf Linux</a></strong>/ <a href="https://aur.archlinux.org/packages/firedragon">2</a> / <a href="https://forum.garudalinux.org/t/firedragon-librewolf-fork/5018">3</a> or <a href="https://github.com/dothq/browser">Dot Browser</a> - Privacy-Based Browser</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/jetfir3/SpotX-Bash">SpotX-Bash</a></strong>, <a href="https://github.com/abba23/spotify-adblock">spotify-adblock</a> or <a href="https://github.com/Daksh777/SpotifyNoPremium">SpotifyNoPremium</a>  - Spotify Adblockers</li>
+<li><a href="https://github.com/trimstray/the-practical-linux-hardening-guide">The Practical Linux Hardening Guide</a>, <a href="https://vez.mrsk.me/linux-hardening.html">Linux Hardening</a> / <a href="https://madaidans-insecurities.github.io/guides/linux-hardening.html">2</a> or <a href="https://github.com/imthenachoman/How-To-Secure-A-Linux-Server">How to Secure a Linux Server</a> - Linux Hardening Guides</li>
+<li><a href="https://github.com/Jsitech/JShielder">JShielder</a> - Hardening Script for Linux Servers</li>
+<li><a href="https://github.com/sshuttle/sshuttle">SShuttle</a> - Proxy</li>
+<li><a href="https://github.com/CISOfy/lynis">Lynis</a> - Linux Security Auditing Tool</li>
+<li><a href="https://snapcraft.io/authy">Twilio Authy</a> - Linux Two-Factor Authentication</li>
+<li><a href="https://github.com/elmsec/lockigest">Lockigest</a> - Screen Locker</li>
+<li><a href="https://gitlab.com/cyber5k/mistborn">Mistborn</a> - Manage Cloud Security Apps</li>
+<li><a href="https://github.com/evilsocket/opensnitch">OpenSnitch</a> or <a href="https://github.com/costales/gufw">gufw</a> - Linux Firewalls</li>
+<li><a href="https://github.com/aquasecurity/tracee">Tracee</a> - Runtime Security and Forensics</li>
+<li><a href="https://mofolinux.com/">Mofolinux</a>, <a href="https://tails.boum.org/">Tails</a> or <a href="https://www.digi77.com/linux-kodachi/">Kodachi</a> - Privacy-Based Operating System</li>
+<li><a href="https://github.com/slingamn/namespaced-openvpn">OpenVPN Wrapper</a> - VPN Tunnel</li>
+<li><a href="http://ocserv.gitlab.io/www/index.html">Openconnect VPN Server</a> - Linux SSL VPN Server</li>
+<li><a href="https://github.com/binhex/arch-delugevpn">arch-delugevpn</a> - Docker with Torrent client and VPN on Arch Linux base</li>
+<li><a href="https://github.com/UnnoTed/wireguird">wireguird</a> - GUI For Wireguard</li>
+<li><a href="https://github.com/boltgolt/howdy">Howdy</a> - Linux Facial Authentication</li>
+<li><a href="https://shufflecake.net/">ShuffleStacks</a> - Create Hidden Volumes</li>
+<li><a href="https://dyne.org/software/tomb//">Tomb</a> - File Encryption</li>
+<li><a href="https://flathub.org/apps/details/dev.geopjr.Collision">Collision</a> - Check File Hashes</li>
+<li><a href="https://github.com/owerdogan/whoami-project">WhoAmI Project</a> - Privacy / Anonymity Tool</li>
+<li><a href="https://github.com/agherzan/yubikey-full-disk-encryption">Yubikey Full Disk Encryption</a> - Use YubiKey to unlock a LUKS Partition</li>
+<li><a href="https://github.com/bhanupratapys/dnswarden">BhanUpratpys</a> - DNS Adblocking</li>
+<li><a href="https://github.com/HACK3RY2J/Anon-SMS">Anon-SMS</a> - Send Anonymous SMS Messages</li>
+<li><a href="https://firejail.wordpress.com/">Firejail</a> or <a href="https://github.com/containers/bubblewrap">Bubblewrap</a> - Sandboxing tools</li>
+<li><a href="https://github.com/berthubert/googerteller">GoogleTeller</a> - Google Tracking Notifications</li>
+</ul>
+<doc-anchor-target id="linux-system">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#linux-system">#</doc-anchor-trigger>
+        <span>Linux System</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/Kazhnuz/awesome-gnome">Awesome Gnome</a></strong> - GNOME Resources</li>
+<li><span class="docs-emoji">&#x21AA;&#xFE0F;</span> <strong><a href="https://fmhy.pages.dev/storage/#linux-distros">Linux Distros</a></strong></li>
+<li><span class="docs-emoji">&#x21AA;&#xFE0F;</span> <strong><a href="https://fmhy.pages.dev/storage/#chromeos-tools">ChromeOS Tools</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://discord.gg/linuxchat">Linux.Chat</a></strong>, <a href="https://linuxdiscord.com/">Linux x Technology</a>, <a href="https://ezlinux.net/">Ezlinux</a> or <a href="https://discord.gg/discord-linux">Discord-Linux</a> - Linux Discussion / Forums</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://wiki.archlinux.org/">Archwiki</a></strong> - Arch Linux Wiki / <a href="https://man.archlinux.org/">Manuals</a> / <a href="https://codeberg.org/theooo/mantra.py">TUI</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/ventoy/Ventoy">Ventoy</a></strong> - Create Bootable USB Linux Drives</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/aristocratos/bpytop">Bpytop</a></strong>, <strong><a href="https://github.com/dylanaraps/pfetch">pfetch</a></strong>, <strong><a href="https://github.com/flightlessmango/MangoHud">MangoHud</a></strong>, <a href="https://github.com/TheTumultuousUnicornOfDarkness/CPU-X">CPU-X</a>, <a href="https://github.com/MrRio/vtop">vtop</a>, <a href="https://github.com/dylanaraps/neofetch">neofetch</a> / <a href="https://github.com/chick2d/neofetch-themes">Themes</a> or <a href="https://github.com/lm-sensors/lm-sensors">LM Sensors</a> - System Info / Resource Monitors</li>
+<li><a href="https://github.com/Sysinternals/SysmonForLinux">SysmonForLinux</a> - Monitor / Log System Activity</li>
+<li><a href="https://github.com/andreas-abel/nanoBench">Nanobench</a> - CPU Microbenchmark / <a href="https://nanobench.ankerl.com/">Documentation</a></li>
+<li><a href="https://github.com/scanmem/scanmem">ScanMem</a> - Memory Scanner / Debugger</li>
+<li><a href="https://github.com/tariqbuilds/linux-dash">Linux-dash</a> - Web-based System Dashboard</li>
+<li><a href="https://github.com/Kharacternyk/pacwall">pacwall</a> - Live Wallpaper Dependency Graph / Package Status</li>
+<li><a href="https://github.com/AdnanHodzic/auto-cpufreq">auto-cpufreq</a> - CPU Speed &amp; Power Optimization Automation</li>
+<li><a href="https://github.com/ralyodio/node-startup">node-startup</a> - Startup Script</li>
+<li><a href="https://linux.die.net/">die.net</a> - Linux Documentation</li>
+<li><a href="https://www.howtoforge.com/">HowtoForge</a>, <a href="https://github.com/sindresorhus/guides">Sindresorhus Guides</a>, <a href="https://www.youtube.com/c/ErikDubois">Erik Dubois</a>, <a href="https://linuxjourney.com/">LinuxJourney</a>, <a href="https://github.com/mayfrost/guides">Mayfrost Guides</a> or <a href="https://www.youtube.com/channel/UC7YOGHUfC1Tb6E4pudI9STA">Mental Outlaw</a> - Linux Guides / Tutorials</li>
+<li><a href="https://i.ibb.co/ChF9HMH/02e105ba72c1.png">Linux Filesystem Chart</a> - File System Guide</li>
+<li><a href="https://github.com/themagicalmammal/howtolinux">howtodebuntu</a> - Tweaks for Debian Based Distros</li>
+<li><a href="https://github.com/WoeUSB/WoeUSB">WoeUSB</a> or <a href="https://github.com/ValdikSS/windows2usb">Windows2USB</a> - Create Bootable USB Windows Drives</li>
+<li><a href="https://github.com/CloverHackyColor/CloverBootloader/releases">CloverBootloader</a> - Windows, Mac &amp; Linux Bootloader / <a href="https://mackie100projects.altervista.org/">Config</a></li>
+<li><a href="https://osresearch.net/">Linux Heads</a> - Minimal CoreBoot / <a href="https://github.com/osresearch/heads">GitHub</a></li>
+<li><a href="https://gparted.org/">GParted</a> - Partition Manager</li>
+<li><a href="https://github.com/ChrisTitusTech/ArchTitus">ArchTitus</a>, <a href="https://github.com/archlinux/archinstall">archinstall</a> or <a href="https://anarchyinstaller.gitlab.io/">Anarchy</a> - Arch Linux Installer</li>
+<li><a href="https://github.com/pop-os/shell">Pop!_OS Shell</a> - Pop-Shell for GNOME</li>
+<li><a href="https://github.com/Har-Kuun/OneClickDesktop">OneClickDesktop</a> - One-Click Remote Desktop</li>
+<li><a href="https://github.com/instantbox/instantbox">InstantBox</a> - Temporary Linux Systems</li>
+<li><a href="https://github.com/CoreELEC/CoreELEC">CoreELEC</a> or <a href="https://libreelec.tv/">LibreELEC</a> - Kodi-Based Operating System</li>
+<li><a href="https://learn.microsoft.com/en-us/windows/wsl/">WSL</a> or <a href="https://github.com/mikeslattery/tunic">Tunic</a> - Run Linux on Windows / <a href="https://github.com/sirredbeard/Awesome-WSL">Resources</a> / <a href="https://github.com/nullpo-head/wsl-distrod">Startup Launcher</a> / <a href="https://github.com/microsoft/wslg">Wayland / X Server</a></li>
+<li><a href="https://distrosea.com/">DistroSea</a> or <a href="https://bellard.org/jslinux/">JSLinux</a> - Linux Browser Emulators</li>
+<li><a href="https://vivek9patel.github.io/">Vivek9Patel</a> - Run Ubuntu on Browser / <a href="https://github.com/vivek9patel/vivek9patel.github.io">GitHub</a></li>
+<li><a href="https://wiki.gnome.org/Apps/Boxes">Boxes</a> - Virtual Machine Manager</li>
+<li><a href="https://www.linux-kvm.org/page/Downloads">Linux-KVM</a> - Kernel-Based Virtual Machine</li>
+<li><a href="https://cdn.discordapp.com/attachments/787671932957884416/787672107848302612/guicolab.ipynb">Ubuntu VNC</a> - Free Ubuntu VNC</li>
+<li><a href="https://github.com/kholia/OSX-KVM">OSX-KVM</a>, <a href="https://github.com/notAperson535/OneClick-macOS-Simple-KVM">OneClick-macOS-Simple-KVM</a> or <a href="https://github.com/foxlet/macOS-Simple-KVM">macOS-Simple-KVM</a> - MacOS Virtual</li>
+<li><a href="https://github.com/Dhruvgera/RockstarKernel_WSL2">RockstarKernel_WSL2</a> - Windows Subsystem Kernel</li>
+<li><a href="https://kmon.cli.rs/">kmon</a> - Kernel Manager and Activity Monitor</li>
+<li><a href="https://makelinux.github.io/kernel/map/">Kernel Map</a> - Interactive Linux Kernel Map</li>
+<li><a href="https://github.com/gerardpuig/ubuntu-cleaner">UbuntuCleaner</a> - Easily clean Ubuntu(-based) Systems</li>
+<li><a href="https://www.system-rescue.org/">SystemRescue</a> or <a href="https://www.supergrubdisk.org/super-grub2-disk/">Super Grub2 Disk</a> - Bootable System Rescue Toolkits</li>
+<li><a href="https://help.ubuntu.com/community/Boot-Repair">Boot-Repair</a> - Grub Repair Guide for Linux Systems</li>
+<li><a href="https://github.com/teejee2008/timeshift">Timeshift</a> - Create System Snapshots / Restore Points</li>
+<li><a href="https://github.com/andreyv/sbupdate">sbupdate</a> - Generate &amp; Sign kernel images for UEFI Secure Boot Arch Linux</li>
+<li><a href="https://coreboot.org/">coreboot</a> or <a href="https://libreboot.org/">Libreboot</a> - Replace Proprietary BIOS/UEFI Firmware</li>
+<li><a href="https://github.com/bilelmoussaoui/Hardcode-Tray">Hardcode Tray</a> - Hardcoded Tray Icon Fix</li>
+<li><a href="https://github.com/NVIDIA/open-gpu-kernel-modules">open-gpu-kernel-modules</a> - NVIDIA Linux Open GPU Kernel Module</li>
+<li><a href="https://nosystemd.org/">nosystemd</a> - Alternatives to Systemd</li>
+</ul>
+<doc-anchor-target id="linux-apps">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#linux-apps">#</doc-anchor-trigger>
+        <span>Linux Apps</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/restic/others">Linux File Backup</a></strong> - File Backup App List</li>
+<li><span class="docs-emoji">&#x21AA;&#xFE0F;</span> <strong><a href="https://fmhy.pages.dev/storage/#music-libraries--players">Music Libraries / Players</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://mpv.io/">mpv</a></strong> - Video Player / <a href="https://github.com/celluloid-player/celluloid">Frontend</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://appdb.winehq.org/">WineHQ</a></strong> - Wine Compatibility Database</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://sourceforge.net/projects/q4wine/">Q4Wine</a></strong> - Wine GUI</li>
+<li><a href="https://github.com/Fmstrat/winapps">winapps</a>, <a href="https://github.com/casualsnek/cassowary">Cassowary</a>, <a href="https://www.codeweavers.com/crossover">CrossOver</a> or <a href="https://usebottles.com/">Bottles</a> - Run Windows Apps on Linux</li>
+<li><a href="https://github.com/wslutilities/wslu">wslu</a> - Utilities for Windows 10 Linux Subsystem</li>
+<li><a href="https://www.darlinghq.org/">Darling</a> - Run MacOS Apps on Linux</li>
+<li><a href="https://github.com/flamegapps/flamegapps">FlameGApps</a> - Google Apps Installer</li>
+<li><a href="https://ulauncher.io/">Ulauncher</a> - Application Launcher</li>
+<li><a href="https://github.com/TheAssassin/AppImageLauncher">AppImageLauncher</a> - App Image Launcher</li>
+<li><a href="https://github.com/NayamAmarshe/DeskCut">DeskCut</a> - Desktop Shortcuts App</li>
+<li><a href="https://github.com/hamza72x/web2app">nativefier_tauri</a> - Turn Webpages into Desktop Apps</li>
+<li><a href="https://frippery.org/busybox/">BusyBox</a> or <a href="https://kkovacs.eu/cool-but-obscure-unix-tools/">Obscure Unix</a> - Unix Tools</li>
+<li><a href="https://github.com/autokey/autokey">Autokey</a> - Linux Automation Utility</li>
+<li><a href="https://crontab.guru/">Crontab Guru</a> - Crontab Editor / Job Scheduler</li>
+<li><a href="https://crontab-generator.org/">Crontab Generator</a> - Generate Crontab Syntax</li>
+<li><a href="https://github.com/JoseExposito/touchegg">Touchégg</a> - Multi-Touch Gesture Recognizer</li>
+<li><a href="https://www.enlightenment.org/">Enlightment</a>, <a href="https://github.com/codic12/worm">worm</a>, <a href="https://github.com/ssleert/qpwm">qpwm</a> or <a href="https://dwm.suckless.org/">dwm</a> - Window Manager</li>
+<li><a href="https://github.com/blrsn/zentile">zentile</a> or <a href="https://github.com/baskerville/bspwm">bspwm</a> - Tiling Windows Manager / <a href="https://www.reddit.com/r/bspwm/">Sub</a> / <a href="https://github.com/baskerville/sxhkd">Binds</a></li>
+<li><a href="https://material-shell.com/">Material Shell</a> or <a href="https://github.com/forge-ext/forge">Forge</a> - GNOME Tiling Extension</li>
+<li><a href="https://bismuth-forge.github.io/bismuth/">Bismuth</a> - KDE Tiling Extension / <a href="https://github.com/Bismuth-Forge/bismuth">GitHub</a></li>
+<li><a href="https://github.com/DoTheEvo/ANGRYsearch">ANGRYsearch</a>, <a href="https://github.com/deadc0de6/catcli">CatCLI</a>, <a href="https://xplr.dev/">xplr</a> / <a href="https://github.com/sayanarijit/xplr">GitHub</a> / <a href="https://discord.com/invite/JmasSPCcz3">Discord</a>, <a href="https://github.com/Yash-Handa/logo-ls">logo-ls</a>, <a href="https://github.com/Genivia/ugrep">ugrep</a> or <a href="https://github.com/kcubeterm/achoz">Achoz</a> - File Explorers</li>
+<li><a href="https://userbase.kde.org/Dolphin">Dolphin</a> or <a href="https://github.com/ranger/ranger">ranger</a> - File Manager</li>
+<li><a href="https://p7zip.sourceforge.net/">p7zip</a> - File Archiver / Unzipper</li>
+<li><a href="https://curlew.sourceforge.io/">Curlew</a> - File Converter</li>
+<li><a href="https://github.com/queer/boxxy">Boxxy</a> - Contain Files / Directories</li>
+<li><a href="https://github.com/sonnyp/Junction">Junction</a> - Change File Associations</li>
+<li><a href="https://apps.kde.org/en-gb/krename/">Krename</a> - Bulk File Renamer</li>
+<li><a href="http://www.pixelbeat.org/fslint/">FSLint</a> or <a href="https://github.com/pkolaczk/fclones">fclones</a> - Duplicate File Finder</li>
+<li><a href="https://github.com/thoughtbot/rcm">rcm</a> - Manage Dotfiles</li>
+<li><a href="https://git.pwmt.org/pwmt">Zathura</a> - Document Viewer</li>
+<li><a href="https://scarpetta.eu/pdfmixtool/">PDF Mix</a> - PDF Editor</li>
+<li><a href="https://ghostwriter.kde.org/">Ghostwriter</a> or <a href="http://remarkableapp.github.io/">Remarkable</a> - Markdown Editor</li>
+<li><a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>, <a href="https://www.geany.org/">Geany</a>, <a href="http://tarot.freeshell.org/leafpad/">Leafpad</a>, <a href="https://github.com/dail8859/NotepadNext">NotepadNext</a>, <a href="https://github.com/tsujan/FeatherPad">Featherpad</a>, <a href="https://github.com/codebrainz/mousepad">Mousepad</a> or <a href="https://notepadqq.com/">Notepadqq</a> - Text Editor</li>
+<li><a href="https://github.com/sbrshk/whatever">Whatever</a> - Evernote Client</li>
+<li><a href="https://github.com/liferooter/textpieces">TextPieces</a> - Quick Text Transformations</li>
+<li><a href="https://github.com/fairyglade/ly">ly</a> - Display Manager with Console UI</li>
+<li><a href="https://gitlab.com/chinstrap/gammastep">GammaStep</a> - Adjust Screen Temperature</li>
+<li><a href="https://github.com/kbumsik/VirtScreen">VirtScreen</a> - Use Mobile Device as Monitor</li>
+<li><a href="https://github.com/H-M-H/Weylus">Weylus</a> - Use Mobile Device as Trackpad</li>
+<li><a href="https://github.com/Merrit/nyrna">nyrna</a> - Suspend Apps / Games</li>
+<li><a href="https://github.com/darkhz/bluetuith">bluetuith</a> - Bluetooth Manager</li>
+<li><a href="https://github.com/sayanarijit/qrscan">QR Scan</a> - QR Code Scanner</li>
+<li><a href="https://github.com/libimobiledevice/libimobiledevice">libimobiledevice</a> - Communicate with iOS Devices</li>
+<li><a href="https://github.com/remote-android/redroid-doc">Redroid</a> - Android Emulator</li>
+<li><a href="https://gitlab.com/bitseater/meteo">Meteo</a> - Weather App</li>
+<li><a href="https://help.gnome.org/users/evolution/stable/">Client Evolution</a> - Calendar</li>
+<li><a href="https://github.com/sioodmy/todo/">todo</a> or <a href="https://github.com/guedesfelipe/pls-cli">pls-cli</a> - To-Do Apps</li>
+<li><a href="http://slgobinath.github.io/SafeEyes/">SafeEyes</a> - Break Reminders</li>
+<li><a href="https://github.com/NerdyPepper/dijo">Dijo</a> - Activity Tracker</li>
+<li><a href="https://dunst-project.org/">dunst</a> - Customizable Notification Daemon / <a href="https://github.com/dunst-project/dunst">GitHub</a></li>
+<li><a href="https://github.com/SeaDve/Breathing">Breathing</a> - Relaxation / Breathing Tool</li>
+<li><a href="https://github.com/fedeztk/got">Got</a> or <a href="https://github.com/rilysh/tl">tl</a> - Translators</li>
+<li><a href="https://github.com/hisbaan/didyoumean">DidYouMean</a> - Grammar Check</li>
+<li><a href="https://apps.kde.org/ktouch/">KTouch</a>, <a href="https://github.com/maaslalani/typer">typer</a> or <a href="https://github.com/Samyak2/toipe">Toipe</a> - Typing Practice</li>
+<li><a href="https://github.com/stsaz/fmedia">fmedia</a> - Media Player and Converter</li>
+<li><a href="https://github.com/pystardust/ani-cli">ani-cli</a> - Anime Streaming Terminal</li>
+<li><a href="https://github.com/z411/trackma/">Trackma</a> - Anime Tracking App</li>
+<li><a href="https://github.com/kraxarn/spotify-qt">spotify-qt</a>, <a href="https://github.com/xou816/spot">Spot</a> or <a href="https://github.com/Spotifyd/spotifyd">SpotifyD</a> - Spotify Clients</li>
+<li><a href="https://github.com/kokarare1212/librespot-python">Librespot-Python</a> - Spotify TUI</li>
+<li><a href="https://gitlab.com/Vistaus/monophony">Monophony</a> - YouTube Music Client</li>
+<li><a href="https://github.com/aunetx/deezer-linux">Deezer Linux</a> - Deezer Client</li>
+<li><a href="https://gitlab.com/albanobattistella/myuzi">Myuzi</a> or <a href="https://github.com/ZingyTomato/Harmony-Music">Harmony Music</a> - Music Streaming Apps</li>
+<li><a href="https://github.com/Sapd/HeadsetControl">HeadsetControl</a> - Headset Settings Manager</li>
+<li><a href="https://github.com/marin-m/SongRec">SongRec</a> - Song Identifier</li>
+<li><a href="https://wiki.archlinux.org/title/PipeWire#Noise_suppression_for_voice">Pipewire</a> or <a href="https://github.com/noisetorch/NoiseTorch">NoiseTorch</a> - Noise Suppression Software</li>
+<li><a href="https://qtractor.org/">Qtractor</a> - Audio Editor</li>
+<li><a href="http://nosignal.fi/ecasound/">Ecasound</a>, <a href="https://github.com/Audio4Linux/Viper4Linux">Viper4Linux</a> / <a href="https://github.com/Audio4Linux/Viper4Linux-GUI">GUI</a> or <a href="https://github.com/Audio4Linux/JDSP4Linux">JDSP4Linux</a> - Audio Processors</li>
+<li><a href="https://github.com/karlstav/cava">cava</a> - Console Audio Visualizer</li>
+<li><a href="https://github.com/JupiterBroadcasting/CasterSoundboard">CasterSoundboard</a> - Soundboard</li>
+<li><a href="https://github.com/Gictorbit/photoshopCClinux">photoshopCClinux</a> - Linux Photoshop Installer</li>
+<li><a href="https://github.com/umlaeute/v4l2loopback">V4L2Loopback</a> - Create Virtual Cameras</li>
+<li><a href="https://github.com/maoschanz/drawing">Drawing</a> - Drawing App</li>
+<li><a href="https://github.com/RajSolai/TextSnatcher">TextSnatcher</a> or <a href="https://tenderowl.com/work/frog/">Frog</a> - Image to Text</li>
+<li><a href="https://feh.finalrewind.org/">Feh</a> or <a href="https://github.com/nsxiv/nsxiv">NSXIV</a> - Image Viewer</li>
+<li><a href="https://github.com/hackerb9/lsix">lsix</a> - View Images in Terminal</li>
+<li><a href="https://gitlab.com/TheEvilSkeleton/Upscaler">Upscaler</a> - Image Upscaler</li>
+<li><a href="https://trimage.org/">Trimage</a> - Image Compressor</li>
+<li><a href="https://github.com/patrick-kidger/mkposters">MkPosters</a> - Turn Markdown Files into Posters</li>
+<li><a href="https://damonlynch.net/rapid/">Rapid</a> - Quick Linux Photo Importer</li>
+<li><a href="https://github.com/Francesco149/sharenix">Sharenix</a> or <a href="https://magiccap.me/">MagicCap</a> - Screenshot Tool</li>
+<li><a href="https://github.com/bk138/gromit-mpx">Gromit MPX</a> - Screen Annotation</li>
+<li><a href="https://github.com/keshavbhatt/plumber">Plumber</a> - Screen Recorder / Clipping</li>
+<li><a href="http://www.bandshed.net/avlinux/">AV Linux</a> - Video / Audio Editor</li>
+<li><a href="https://github.com/jliljebl/flowblade">Flowblade</a> - Video Editor</li>
+<li><a href="https://github.com/phw/peek">Peek</a> - Simple Video / GIF recorder</li>
+<li><a href="https://github.com/fangfufu/Linux-Fake-Background-Webcam/">Linux-Fake-Background-Webcam</a> - Fake Webcam Background</li>
+</ul>
+<doc-anchor-target id="linux-internet">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#linux-internet">#</doc-anchor-trigger>
+        <span>Linux Internet</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/linuxmint/warpinator">Warpinator</a></strong>, <a href="https://syncthing.net/">syncthing</a>, <a href="https://github.com/SpatiumPortae/portal">portal</a> or <a href="https://github.com/parvardegr/sharing">Sharing</a> - File Sync Apps</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.slsknet.org/SoulseekQt/Linux/SoulseekQt-2018-1-30-64bit-appimage.tgz">Soulseek</a></strong> - File Sharing App</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/infinity-plus/TorrFlix">TorrFlix</a></strong> - Torrent Streaming CLI</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/qbittorrent/qBittorrent/wiki/Installing-qBittorrent#linux">qBittorrent</a></strong> / <a href="https://fmhy.pages.dev/storage/#qbitorrent-tools">Tools</a>, <strong><a href="https://rakshasa.github.io/rtorrent/">rTorrent</a></strong> / <a href="https://github.com/rakshasa/rtorrent">2</a>, <a href="https://bitflu.workaround.ch/">BitFlu</a>, <a href="https://github.com/guidopola/torrentor">Torrentor</a> or <a href="https://apps.kde.org/ktorrent/">kTorrent</a> / <a href="https://invent.kde.org/network/ktorrent">2</a> - Linux Torrent Clients</li>
+<li><a href="https://github.com/Novik/ruTorrent">RuTorrent</a> or <a href="https://flood.js.org/">flood</a> - RTorrent Web Frontend / <a href="https://github.com/InAnimaTe/rutorrent-themes">Themes</a>, <a href="https://github.com/artyuum/3rd-party-ruTorrent-Themes">2</a></li>
+<li>rTorrent Tools - <a href="https://github.com/pyroscope/rtorrent-ps">Extended</a> / <a href="https://github.com/pyroscope/pyrocore">Tools</a> / <a href="https://calomel.org/rtorrent_mods.html">Mods</a> / <a href="https://github.com/AkdM/rutorrent-all-seeders">All Seeders Column</a> / <a href="https://github.com/binhex/arch-rtorrentvpn">Docker Build</a></li>
+<li><a href="https://luakit.github.io/">Luakit</a> - Lightweight Linux Browser</li>
+<li><a href="https://www.brow.sh/">browsh</a> - Text Based Browser</li>
+<li><a href="https://thorium.rocks/">Thorium</a> - Chromium-Based Browser / <a href="https://github.com/Alex313031/Thorium">GitHub</a></li>
+<li><a href="https://aerc-mail.org/">aerc</a>, <a href="https://github.com/vladimiry/ElectronMail">ElectronMail</a> or <a href="https://github.com/akissinger/dodo">dodo</a> - Email Clients</li>
+<li><a href="https://www.passwordstore.org/">pass</a> - Unix Password Manager</li>
+<li><a href="https://gitlab.gnome.org/GNOME/seahorse">Seahorse</a> or <a href="https://wiki.gnome.org/Projects/GnomeKeyring">GnomeKeyring</a> - GNOME Password Manager</li>
+<li><a href="https://www.gopass.pw/">gopass</a> - CLI Password Manager</li>
+<li><a href="https://apps.kde.org/kget/">KGet</a>, <a href="https://github.com/gabutakut/gabutdm">GabutDM</a> - Download Manager</li>
+<li><a href="https://github.com/mzramna/easy-google-drive-downloader">easy-google-drive-downloader</a> or <a href="https://github.com/wkentaro/gdown">GDown</a> - Google Drive Downloader</li>
+<li><a href="https://github.com/astrada/google-drive-ocamlfuse">google-drive-ocamlfuse</a> - Mount GDrive</li>
+<li><a href="https://maestral.app/">maestral</a> - Dropbox Client</li>
+<li><a href="https://github.com/ilikenwf/apt-fast">apt-fast</a> - APT Download Accelerator</li>
+<li><a href="https://gitlab.com/volian/nala">Nala</a> - APT Frontend</li>
+<li><a href="https://web.archive.org/web/20210225201811/https1://the-eye.eu/public/Wget_Linux_Guide.pdf">Wget_Linux_Guide</a> - Wget Guide</li>
+<li><a href="https://easypanel.io/">EasyPanel</a> - Server Control Panel</li>
+<li><a href="https://wayland.freedesktop.org/">Wayland</a> - Linux Display Server Protocol / <a href="https://arewewaylandyet.com/">Tools</a></li>
+<li><a href="https://github.com/riverwm/river/">river</a>, <a href="https://github.com/labwc/labwc">LabWC</a>, <a href="https://hyprland.org/">Hyprland</a>, <a href="https://github.com/buffet/kiwmi">kiwmi</a>, <a href="https://github.com/yshui/picom">picom</a>, <a href="https://github.com/WayfireWM/wayfire/">wayfire</a> or <a href="https://github.com/swaywm/sway/">sway</a> - Linux Compositors</li>
+<li><a href="https://github.com/xeome/compix">Compix</a> - Xorg Compositor</li>
+<li><a href="https://www.reddit.com/r/linuxupskillchallenge/">/r/linuxupskillchallenge</a> - How-to Sysadmin a Remote Server</li>
+<li><a href="https://fmhy.pages.dev/base64/#free-cloud-linux-server">Free Cloud Linux Server</a> - Free Cloud Server Guide</li>
+<li><a href="https://github.com/masonr/yet-another-bench-script">yet another bench script</a> - Server Performance Script</li>
+<li><a href="https://github.com/imsnif/bandwhich">Bandwhich</a> - Terminal Bandwidth Utilization Tool</li>
+<li><a href="https://github.com/floriankunushevci/rang3r">Rang3r</a> - IP / Port Scanner</li>
+<li><a href="https://underpassapp.com/LinkUnshortener/">Link Unshortener</a> - Unshorten Links</li>
+<li><a href="https://github.com/naelxd/lnkr">lnkr</a> - Link Saving TUI</li>
+<li><a href="https://github.com/abhimanyu003/sttr">sttr</a> - Base64 Encryption / Decryption TUI</li>
+<li><a href="https://peervpn.net/">PeerVPN</a> - P2P VPN</li>
+<li><a href="https://knapsu.eu/plex/">Knapsu</a> or <a href="https://cloudbox.works/">Cloudbox</a> - Media Server</li>
+<li><a href="https://github.com/ahembree/ansible-hms-docker">ansible-hms-docker</a> - Automated Media Server Setup</li>
+<li><a href="https://tvheadend.org/">Tvheadend</a> - TV Streaming Server / <a href="https://github.com/tvheadend/tvheadend">GitHub</a></li>
+<li><a href="https://github.com/ab77/netflix-proxy/">Netflix Proxy</a> - Streaming Service Proxy</li>
+<li><a href="https://github.com/linuxserver/docker-jackett">Docket-Jacket</a> - Docker Jacket Container</li>
+<li><a href="https://swizzin.ltd/">swizzin</a> - Seedbox for Ubuntu / Debian</li>
+<li><a href="https://github.com/arakasi72/rtinst">rtinst</a> - Seedbox Installation Script for Ubuntu / Debian</li>
+<li><a href="https://github.com/ipsingh06/seedsync">SeedSync</a> - Sync your Seedbox</li>
+<li><a href="https://gnusocial.network/">GNU Social</a> - Self-Hosted Social Networking Platform</li>
+<li><a href="https://hexchat.github.io/">Hexchat</a>, <a href="https://adium.im/">Adium</a>, <a href="https://wiki.gnome.org/Apps/Polari">Polari</a>, <a href="https://github.com/irssi/irssi">Irssi</a>, <a href="http://www.kvirc.net/">KVIrc</a> or <a href="https://weechat.org/">Weechat</a> - IRC Clients</li>
+<li><a href="https://github.com/boxdot/gurk-rs">gurk-rs</a> - Signal Client</li>
+<li><a href="https://github.com/stanfieldr/ghetto-skype">Ghetto Skype</a> - Video / Chat Client</li>
+<li><a href="https://github.com/trizen/youtube-viewer">YouTube-Viewer</a> - YouTube Linux Client / <a href="https://github.com/trizen/pipe-viewer">Fork</a></li>
+<li><a href="https://github.com/vinszent/gnome-twitch">Gnome-Twitch</a> - Twitch Desktop Client</li>
+<li><a href="https://zerkc.gitlab.io/whatsdesk/">Whatsdesk</a> or <a href="https://github.com/rafatosta/zapzap">ZapZap</a> - WhatsApp Client</li>
+<li><a href="https://aur.archlinux.org/packages/giara/">Giara</a> or <a href="https://gitlab.com/caveman250/Headlines">Headlines</a> - Reddit Client</li>
+<li><a href="https://gitlab.com/aaronNG/reddio">reddio</a> - Reddit CLI</li>
+<li><a href="https://gitlab.com/gabmus/giara">Giara</a> - GTK Reddit App</li>
+<li><a href="https://github.com/Solirs/gettit/">gettit</a> - Reddit CLI Video Downloader</li>
+<li><a href="https://github.com/orakaro/rainbowstream">rainbowstream</a> - Twitter CLI</li>
+<li><a href="https://git.coom.tech/eternal-coomer/LiMP">LiMP</a> - Local Booru</li>
+<li><a href="https://github.com/nextcord/nextcord">Nextcord</a> - Discord API Wrapper</li>
+<li><a href="https://github.com/trigg/Discover">Discover</a> - Discord Overlay</li>
+<li><a href="https://github.com/diced/dvm">dvm</a> - Discord Version Manager</li>
+<li><a href="https://github.com/RPM-Outpost/discord">Discord RPM</a> - Automated Discord Update Script</li>
+<li><a href="https://www.npmjs.com/package/emoj">emoj</a>, <a href="https://github.com/fdw/rofimoji">Rofimoji</a>, <a href="https://github.com/thingsiplay/emojicherrypick">EmojiCherryPick</a>, <a href="https://github.com/biox/shmoji">Shmoji</a> or <a href="https://github.com/b4b4r07/emoji-cli">emoji-cli</a> - Emoji CLI&#x27;s</li>
+<li><a href="https://github.com/KorySchneider/wikit">wikit</a> - Wikipedia Summaries</li>
+</ul>
+<doc-anchor-target id="terminal--shell">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#terminal--shell">#</doc-anchor-trigger>
+        <span>Terminal / Shell</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/alebcay/awesome-shell">Awesome-shell</a></strong>, <a href="https://github.com/tldr-pages/tldr/">tldr</a>, <a href="https://altbox.dev/">AltBox</a> or <a href="https://github.com/rendick/LinuxTools">LinuxTools</a> - Linux Shell Resources</li>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/rothgar/awesome-tuis">Awesome TUIs</a></strong> - List of TUIs</li>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/sheepla/awesome-for-oneliner">awesome-for-oneliner</a></strong>, <a href="https://helpmanual.io/">Helmanual</a>, <a href="https://play.google.com/store/apps/details?id=com.inspiredandroid.linuxcommandbibliotheca">Linux Command Library</a> or  <a href="https://www.commandlinefu.com/">CommandlineFU</a> - Unix Commands</li>
+<li><span class="docs-emoji">&#x21AA;&#xFE0F;</span> <strong><a href="https://fmhy.pages.dev/storage/#command-line-shells">Linux Shell Index</a></strong> or <a href="https://github.com/ibraheemdev/modern-unix">Modern Unix</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://gitlab.gnome.org/GNOME/baobab">Baobab</a></strong>, <a href="https://github.com/jarun/nnn">nnn</a>, <a href="https://github.com/leo-arch/clifm">clifm</a>, <a href="https://github.com/mistakenelf/fm">fm</a>, <a href="https://github.com/kamiyaa/joshuto">Joshuto</a>, <a href="https://github.com/dundee/gdu">gdu</a> or <a href="https://github.com/rofl0r/ncdu">NCDU</a> - Terminal File Manager / Disk Usage Analyzers</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/alacritty/alacritty">Alacritty</a></strong>, <strong><a href="https://sw.kovidgoyal.net/kitty/overview/">Kitty</a></strong>, <a href="https://st.suckless.org/">Simple Terminal</a>, <a href="https://apps.kde.org/yakuake/">yakuake</a>, <a href="https://codeberg.org/akib/emacs-eat">emacs-eat</a> or <a href="https://tabby.sh/">tabby</a> - Terminal Emulators</li>
+<li><a href="https://github.com/Loupeznik/utils">utils</a> or <a href="https://github.com/jackrabbit335/UsefulLinuxShellScripts">UsefulLinuxShellScripts</a> - Linux Shell Tool Scripts</li>
+<li><a href="https://github.com/charmbracelet/gum">Gum</a> - Shell Script Creator</li>
+<li><a href="https://www.shellcheck.net/">ShellCheck</a> - Shell Script Bug Check</li>
+<li><a href="https://github.com/techarkit/shell-scripting-tutorial">shell-scripting-tutorial</a> - Shell Scripting Tutorial</li>
+<li><a href="http://mama.indstate.edu/users/ice/tree/">Tree</a> - Directory Listing Command</li>
+<li><a href="https://github.com/jlevy/the-art-of-command-line">Command Line Guide</a> or <a href="https://www.linuxcommand.org/tlcl.php">LinuxCommand</a> - Command-Line Lessons</li>
+<li><a href="https://cheat.sh/">Cheat.sh</a> or <a href="https://github.com/santinic/how2">how2</a> - Command-Line Cheat Sheet</li>
+<li><a href="https://ss64.com/bash/">ss64 Bash</a> or <a href="https://github.com/onceupon/Bash-Oneliner">Bash Oneliner</a> - Linux Bash Commands</li>
+<li><a href="https://gitlab.com/slackermedia/bashcrawl">Bash Crawl</a> - Linux Command Learning Game</li>
+<li><a href="https://github.com/Silejonu/bash_loading_animations">bash_loading_animations</a> - Bash Loading Animations</li>
+<li><a href="https://bashly.dannyb.co/">Bashly</a> - Bash Framework</li>
+<li><a href="https://github.com/google/zx">zx</a> - Javascript Bash</li>
+<li><a href="https://www.basher.it/">Basher</a> - Bash Script Package Manager</li>
+<li><a href="https://github.com/hush-shell/hush">hush</a> - Unix Shell</li>
+<li><a href="https://github.com/mjakeman/extension-manager">Extension Manager</a> - GNOME Shell Extensions</li>
+<li><a href="https://github.com/89luca89/distrobox">Distrobox</a> - Use Distros via Terminal</li>
+<li><a href="https://htop.dev/">htop</a> - Interactive Process Viewer / <a href="https://github.com/htop-dev/htop">GitHub</a></li>
+<li><a href="https://github.com/eza-community/eza">eza</a> - Modern ls replacement</li>
+<li><a href="https://explainshell.com/">explainshell.com</a> - Match Command-Line Arguments to Help Text</li>
+<li><a href="https://github.com/powershell/powershell">PowerShell</a> - PowerShell</li>
+<li><a href="https://github.com/tmux/tmux">Tmux</a> - Terminal Multiplexer / <a href="https://tmuxcheatsheet.com/">Cheatsheet</a></li>
+<li><a href="https://asciinema.org/">asciinema</a> - Terminal Recorder</li>
+<li><a href="https://electerm.github.io/electerm">Electerm</a> - Terminal / SSH / STP Client</li>
+<li><a href="https://github.com/junegunn/fzf">fzf</a> - Fuzzy Finder TUI</li>
+<li><a href="https://apps.kde.org/yakuake/">Yakuake</a> - Quake Style Terminal Emulator</li>
+<li><a href="https://github.com/ellie/atuin">atuin</a> - Shell History Management</li>
+<li><a href="https://gitlab.com/jallbrit/cbonsai">cbonsai</a> - Generate Bonsai Trees in Terminal</li>
+<li><a href="https://github.com/pipeseroni/pipes.sh">pipes.sh</a> or <a href="https://github.com/lhvy/pipes-rs">pipes-rs</a> - Animated Pipes in Terminal</li>
+<li><a href="https://aur.archlinux.org/packages/neo-matrix-git/">Neo Matrix Git</a> - Simulate Matrix Digital Rain</li>
+<li><a href="https://pastebin.com/ayrFjrh6">Terminal Locomotive Train</a> - Train Terminal Easter Egg</li>
+<li><a href="https://robobunny.com/projects/asciiquarium/html/">ASCIIQuarium</a> - Fish in Terminal</li>
+</ul>
+<doc-anchor-target id="customization">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#customization">#</doc-anchor-trigger>
+        <span>Customization</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://rizonrice.club/Main_Page">Ricepedia</a></strong> - Linux Ricing Tools</li>
+<li><span class="docs-emoji">&#x21AA;&#xFE0F;</span> <strong><a href="https://fmhy.pages.dev/storage/#linux-themes">Linux Themes</a></strong> - Themes for Linux</li>
+<li><a href="https://github.com/fhadiel/ricemood">ricemood</a> or <a href="https://deviantfero.github.io/wpgtk">wpgtk</a> - Fully Customizable Unix Color Schemer</li>
+<li><a href="https://github.com/akiraux/Akira">Akira</a> - UI/UX Customization</li>
+<li><a href="https://github.com/tsujan/Kvantum">Kvantum</a> - Linux QT / KDE Theme Engine</li>
+<li><a href="https://github.com/polybar/polybar">Polybar</a> or <a href="https://github.com/LemonBoy/bar">lemonbar</a> - Customizable Status Bar</li>
+<li><a href="https://www.noobslab.com/2018/08/macbuntu-1804-transformation-pack-ready.html">MacBuntu Transformation Pack</a>, <a href="https://www.noobslab.com/2017/06/macbuntu-transformation-pack-ready-for.html">2</a> - Mac Theme</li>
+<li><a href="https://github.com/B00merang-Project/Windows-10">Windows-10</a> - Windows 10 Theme</li>
+<li><a href="https://github.com/keeferrourke/la-capitaine-icon-theme">La Capitaine</a>, <a href="https://snwh.org/moka">Moka</a>, <a href="https://github.com/numixproject/numix-icon-theme">Numix</a> or <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus</a> - Linux Icon Themes</li>
+<li><a href="https://www.jwz.org/xscreensaver/">xScreensaver</a> - Linux Screensavers</li>
+<li><a href="https://github.com/calo001/fondo">Fondo</a>, <a href="https://hydrapaper.gabmus.org/">HydraPaper</a>, <a href="https://github.com/thevinter/styli.sh">styli.sh</a> or <a href="https://github.com/cheesecakeufo/komorebi">Komorebi</a> - Wallpaper Managers</li>
+<li><a href="https://github.com/ghostlexly/gpu-video-wallpaper">Video Wallpaper</a> - Use Videos as Animated Wallpaper</li>
+<li><a href="https://polychromatic.app/">Polychromatic</a> - Linux System Light Control</li>
+<li><a href="https://github.com/Schneegans/Burn-My-Windows">Burn My Windows</a> - Window Closing Effects</li>
+<li><a href="https://github.com/lemnos/theme.sh">theme.sh</a> or <a href="https://gitlab.com/dwt1/shell-color-scripts">Shell Color Scripts</a> / <a href="https://github.com/stark/Color-Scripts">2</a> - Custom Terminal Themes</li>
+</ul>
+<doc-anchor-target id="linux-software">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#linux-software">#</doc-anchor-trigger>
+        <span>Linux Software</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://luong-komorebi.github.io/Awesome-Linux-Software/">Awesome Linux</a></strong>, <a href="https://github.com/crackerica/Awesome-Linux-Software">Awesome-Linux-Software</a> or <a href="https://github.com/francoism90/awesome-kde">Awesome KDE</a> - FOSS Software / <a href="https://i.ibb.co/KyTkKHz/ae00a5177857.png">Image</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.kapitalsin.com/forum/index.php?board=5.0">Kapital Sin</a></strong> / Use <a href="https://github.com/FilipePS/Traduzir-paginas-web#install">Translator</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://rutracker.org/forum/viewforum.php?f=1381">RuTracker</a></strong> / Use <a href="https://github.com/FilipePS/Traduzir-paginas-web#install">Translator</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://cse.google.com/cse?cx=81bd91729fe2a412b">Linux Software CSE</a></strong> - Multi-Site Software Search</li>
+<li><a href="https://github.com/trimstray/the-book-of-secret-knowledge">The Book of Secret Knowledge</a></li>
+<li><a href="https://gist.github.com/bgoonz/be5c5be77169ef333b431bc37d331176">Ultimate Cheatsheet</a></li>
+<li><a href="https://wiki.archlinux.org/title/list_of_applications">ArchWiki List of Applications</a></li>
+<li><a href="https://www.linuxalt.com/">LinuxAlt</a></li>
+<li><a href="https://github.com/9fans/plan9port">Plan9Port</a></li>
+<li><a href="https://itlanyan.com/">tlanyan</a></li>
+<li><a href="https://flathub.org/">Flathub</a> - Flatpak Repository</li>
+<li><a href="https://snapcraft.io/store">SnapCraft</a> - Snap Repository</li>
+<li><a href="https://nixos.org/">NixOS</a> / <a href="https://github.com/nix-community/home-manager">Manager</a> or <a href="https://brew.sh/">Homebrew</a> - Package Managers</li>
+<li><a href="https://www.appimagehub.com/">AppImageHub</a>, <a href="https://appimage.github.io/">AppImages</a> or <a href="https://g.srev.in/get-appimage/">Get AppImage</a> - Download AppImages</li>
+<li><a href="https://github.com/prateekmedia/appimagepool">AppImagePool</a>, <a href="https://github.com/srevinsaju/zap">Zap</a> or <a href="https://github.com/ivan-hc/AM-Application-Manager">AM-Application-Manager</a> - Appimage Package Managers</li>
+<li><a href="https://github.com/Jguer/yay">yay</a>, <a href="https://github.com/morganamilo/paru">paru</a> or <a href="https://github.com/fosskers/aura">aura</a> - Arch User Repository Helpers</li>
+<li><a href="https://apps.gnome.org/">Apps for GNOME</a> - GNOME Apps</li>
+<li><a href="https://apps.kde.org/">KDE Applications</a> - KDE Apps</li>
+<li><a href="https://apt.izzysoft.de/">IzzySoft Apt Repositories</a></li>
+<li><a href="https://repology.org/">Repology</a> - Package Repository Tracker</li>
+<li><a href="https://www.pling.com/">Pling</a> / <a href="https://www.linux-apps.com/">2</a> - Linux Apps and Themes</li>
+<li><a href="https://pacstall.dev/">Pacstall</a> - AUR-Inspired Package Manager for Ubuntu</li>
+</ul>
+<doc-anchor-target id="linux-gaming">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#linux-gaming">#</doc-anchor-trigger>
+        <span>Linux Gaming</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/ligurio/awesome-ttygames">Awesome-ttygames</a></strong> - Unix ASCII Games</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.reddit.com/r/LinuxCrackSupport/wiki/index">Linux Gaming Guide</a></strong> / <a href="https://web.archive.org/web/20221022121735/https://www.reddit.com/r/Piracy/comments/ndrtlf/comment/gyccwhk/?context=3">2</a> - Linux Gaming Guides</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.protondb.com/">protondb</a></strong>, <strong><a href="https://lutris.net/">Lutris</a></strong> or <a href="https://github.com/ValveSoftware/Proton">Proton</a> - Play Windows games on Linux</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.kapitalsin.com/forum/index.php?board=4.0">Kapital Sin</a></strong> - Linux Games / Use <a href="https://github.com/FilipePS/Traduzir-paginas-web#install">Translator</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://forum.torrminatorr.com/">Torrminatorr</a></strong> - Linux Games</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://1337x.to/user/johncena141/">johncena141</a></strong> - Linux Games</li>
+<li><a href="https://tkashkin.github.io/projects/gamehub/">GameHub</a>, <a href="https://github.com/AbdelrhmanNile/UnderTaker141">UnderTaker141</a> or <a href="https://github.com/AbdelrhmanNile/steal">Steal</a> - Game Managers</li>
+<li><a href="https://rutracker.org/forum/viewforum.php?f=899">RuTracker</a> - Linux Games / Use <a href="https://github.com/FilipePS/Traduzir-paginas-web#install">Translator</a></li>
+<li><a href="https://github.com/LukeShortCloud/winesapOS">winesapOS</a> - Play Games on Storage Devices</li>
+<li><a href="https://www.gamingonlinux.com/">Gaming-on-Linux Wiki</a> - Wiki for Linux Gaming / <a href="https://linux-gaming.kwindu.eu/">Sub Wiki</a></li>
+<li><a href="https://discourse.ubuntu.com/t/gamebuntu/25544/13">Gamebuntu</a> - Setup Gaming Environment on Ubuntu / <a href="https://gitlab.com/rswat09/gamebuntu">GitLab</a></li>
+<li><a href="https://github.com/DavidoTek/ProtonUp-Qt/">ProtonUp-QT</a> or <a href="https://github.com/GloriousEggroll/proton-ge-custom">proton-ge-custom</a> - Install &amp; Manage Proton-GE for Steam / Wine</li>
+<li><a href="https://batocera.org/">Batocera.linux</a> or <a href="https://lakka.tv/">Lakka</a> - Retro Gaming Distro</li>
+<li><a href="https://github.com/dmadisetti/steam-tui">steam-tui</a> - Rust TUI for Steam</li>
+<li><a href="https://github.com/berenm/steam-cli">steam-cli</a> - CLI for Steam</li>
+<li><a href="https://github.com/luxtorpeda-dev/luxtorpeda">Luxtorpeda</a> or <a href="https://github.com/dreamer/boxtron">Boxtron</a> - Run Steam Games on Linux</li>
+<li><a href="https://github.com/ValveSoftware/gamescope">GameScope</a> - Steam Session Compositing Window Manager</li>
+<li><a href="https://github.com/PaulCombal/SamRewritten">SamRewritten</a> - Steam Achievement Manager</li>
+<li><a href="https://github.com/ValveSoftware/steam-for-linux">Steam for Linux</a> - Steam Linux Beta Issue Tracker</li>
+<li><a href="https://heroicgameslauncher.com/">HeroicGamesLauncher</a> / <a href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher">GitHub</a> - Epic Games Launcher</li>
+<li><a href="https://sharkwouter.github.io/minigalaxy/">Minigalaxy</a> - GOG Client</li>
+<li><a href="https://github.com/myyc/proton-gog-install">proton-gog-install</a> - Windows to Linux GOG Game Installer</li>
+<li><a href="https://github.com/velorek1/cwordle">CWordle</a> - Wordle in Unix Terminal</li>
+<li><a href="https://github.com/iloveichigo/NVBurner">NVBurner</a> or <a href="https://gitlab.com/corectrl/corectrl">CoreCTRL</a> - Overclocking Tool</li>
+<li><a href="https://github.com/doitsujin/dxvk">dxvk</a> - D3D9, D3D10 and D3D11 for Linux / Wine</li>
+<li><a href="https://github.com/DadSchoorse/vkBasalt">VKBasAlt</a> - Game Post Processing Layer</li>
+<li><a href="https://liquorix.net/">Liquorix</a>, <a href="https://xanmod.org/">Xanmod</a> or <a href="https://github.com/Frogging-Family/linux-tkg">Frogging</a> - Linux Gaming Kernels</li>
+<li><a href="https://github.com/FeralInteractive/gamemode">Gamemode</a> - Linux System Optimizer</li>
+<li><a href="https://github.com/Nefelim4ag/Ananicy">Ananicy</a> - Fix Program Priority / Lag / <a href="https://gitlab.com/ananicy-cpp/ananicy-cpp">C++</a></li>
+<li><a href="https://github.com/Ahmed-Al-Balochi/LibreGaming">LibreGaming</a> - Linux Game Package Downloader</li>
+<li><a href="https://github.com/lem6ns/yuzu-ea-updater-for-linux">yuzu-ea-updater-for-linux</a> - Linux Yuzu Updater</li>
+<li><a href="https://github.com/minecraft-linux/mcpelauncher-manifest">mcpelauncher</a> - Minecraft Android Bedrock Edition Launcher for Linux</li>
+<li><a href="https://gitlab.com/brinkervii/grapejuice">Grapejuice</a> - Roblox Manager</li>
+<li><a href="https://discord.com/invite/nKjV3mGq6R">Bloxstrap</a> - Roblox Launcher</li>
+<li><a href="https://notabug.org/loentar/paimon-launcher">Paimon Launcher</a> - Run Genshin Impact</li>
+<li><a href="https://git.sr.ht/%7Emartijnbraam/among-sus">among-sus</a> - Play Among Us in your Terminal (Recreation)</li>
+<li><a href="https://github.com/HFO4/gameboy.live">Gameboy.live</a> - Terminal Gameboy Emulator</li>
+<li><a href="https://github.com/maaslalani/gambit">Gambit</a> - Terminal Chess</li>
+<li><a href="https://github.com/AngelJumbo/sssnake">Sssnake</a> - Terminal Snake</li>
+<li><a href="https://github.com/lelandbatey/defuse_division">Defuse Division</a> - Multiplayer Terminal Minesweeper</li>
+</ul>
+<doc-anchor-target id="mac-tools--apps">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mac-tools--apps">#</doc-anchor-trigger>
+        <span>Mac Tools / Apps</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x21AA;&#xFE0F;</span> <strong><a href="https://fmhy.pages.dev/storage/#music-libraries--players">Mac Audio Players</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/corpnewt/gibMacOS">gibMacOS</a></strong> or <a href="https://www.oldschoolos.com/">OldSchoolOS</a> - Download MacOS</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://readdle.com/documents">Readdle</a></strong> - Multipurpose File Tool</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://theunarchiver.com/">The Unarchiver</a></strong>, <a href="https://github.com/saagarjha/unxip">unxip</a> or <a href="https://www.keka.io/">Keka</a> - File Archivers</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.qbittorrent.org/">qBittorrent</a></strong> - Torrent Client / <a href="https://fmhy.pages.dev/storage/#qbitorrent-tools">Tools</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/grishka/NearDrop">NearDrop</a></strong> or <a href="https://maestral.app/">maestral</a> - File Sharing Apps</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://shottr.cc/">shottr</a></strong> or <a href="https://magiccap.me/">MagicCap</a> - Screenshot Tool</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://aptonic.com/">Aptonic</a></strong> - Mac Productivity App</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.alfredapp.com/">Alfred</a></strong> or <a href="https://www.raycast.com/">Raycast</a> - Keystroke Launchers</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.houdah.com/customShortcuts/">CustomShortcuts</a></strong>, <a href="https://karabiner-elements.pqrs.org/">Karabiner-Elements</a> or <a href="https://shortcutkeeper.com/">ShortcutKeeper</a> - Custom Keyboard Shortcuts</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://alt-tab-macos.netlify.app/">alt-tab-macos</a></strong> - Alt-Tab for Mac</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://flexibits.com/fantastical">Fantastical</a></strong> - Calendar</li>
+<li><a href="https://saurabhs.org/advanced-macos-commands">Advanced MacOS Commands</a> - Advanced Command-Line Tools</li>
+<li><a href="https://github.com/AnimeNow-Team/AnimeNow">AnimeNow</a> or <a href="https://github.com/ZhichGaming/Novee">Novee</a> - Anime Streaming Apps</li>
+<li><a href="https://github.com/yaqinking/DMHY">DMHY</a> - Anime Torrent Autodownloader</li>
+<li><a href="https://github.com/SwiftcordApp/Swiftcord">Swiftcord</a> or <a href="https://github.com/evelyneee/accord">Accord</a> - Discord Clients</li>
+<li><a href="https://betaprofiles.com/">Beta Profiles</a> - Download Pre-Release Versions MacOS</li>
+<li><a href="https://github.com/CloverHackyColor/CloverBootloader/releases">CloverBootloader</a> - Windows, Mac &amp; Linux Bootloader / <a href="https://mackie100projects.altervista.org/">Config</a></li>
+<li><a href="https://support.apple.com/boot-camp">Boot Camp</a> - Windows Bootloader / <a href="https://github.com/timsutton/brigadier">DL Script</a></li>
+<li><a href="https://github.com/sickcodes/Docker-OSX">Docker OSX</a> - Mac VM in Docker</li>
+<li><a href="https://github.com/myspaghetti/macos-virtualbox">macos-virtualbox</a> - MacOS Virtualbox Installer</li>
+<li><a href="https://jinxiansen.github.io/Windows11/">SwiftUI Win11</a> - Windows 11 Desktop Client for macOS</li>
+<li><a href="https://orbstack.dev/">OrbStack</a> - Docker Client</li>
+<li><a href="https://github.com/jpochyla/psst">Psst</a> - Spotify Client</li>
+<li><a href="https://alfred-spotify-mini-player.com/">Alfred Spotify Mini Player</a> - Spotify Mini Player</li>
+<li><a href="https://github.com/lbrndnr/nuage-macos">Nuage</a> - Soundcloud Client</li>
+<li><a href="https://github.com/twostraws/Subsonic">Subsonic</a> - SwiftUI Audio Player</li>
+<li><a href="https://apps.apple.com/us/app/bookshelf-reading-tracker/id1469372414">Bookshelf</a> - Book Tracker</li>
+<li><a href="https://github.com/lima-vm/lima">LimaVM</a> - Linux VM on MacOS</li>
+<li><a href="https://www.portingkit.com/">PortingKit</a>, <a href="https://www.playonmac.com/en/">PlayOnMac</a> or <a href="https://www.codeweavers.com/crossover">CrossOver</a> - Run Windows Games / Programs on Mac</li>
+<li><a href="https://github.com/acidanthera/OpenCorePkg">OpenCore</a> - Mac Bootloader / <a href="https://mackie100projects.altervista.org/opencore-configurator/">Config</a> / <a href="https://dortania.github.io/OpenCore-Install-Guide/">Guide</a></li>
+<li><a href="https://github.com/PlayCover/PlayCover">PlayCover</a> - Run iOS Apps on Apple Silicon Macs</li>
+<li><a href="https://github.com/dortania/OpenCore-Legacy-Patcher/">OpenCore Legacy Patcher</a> - Install New macOS on Unsupported Devices</li>
+<li><a href="https://github.com/brndnmtthws/conky">Conky</a> / <a href="https://github.com/helmuthdu/conky_colors">Colors</a>, <a href="https://github.com/gao-sun/eul">eul</a>, <a href="https://github.com/ssleert/zfxtop">zfxtop</a> or <a href="https://github.com/gantoreno/macfetch">MacFetch</a> - Hardware / System Monitors</li>
+<li><a href="https://github.com/macmade/">Hot</a> - CPU Monitor</li>
+<li><a href="https://objective-see.org/products/taskexplorer.html">TaskExplorer</a> - Task Manager / Viewer</li>
+<li><a href="https://github.com/Xfennec/progress">Progress</a> - Show Copied Data Progress</li>
+<li><a href="https://github.com/MuntashirAkon/DPCIManager">DPCIManager</a> - PCI Hardware Info</li>
+<li><a href="https://kevin-de-koninck.github.io/Clean-Me/">Clean-Me</a> - MacOS System Cleanup</li>
+<li><a href="https://whatroute.net/">What Route</a> - Network Diagnostic Tool</li>
+<li><a href="https://github.com/toru173/Windows-10-MBR-USB-Creation-Tool">Windows 10 MBR</a> or <a href="https://taig.medium.com/create-a-bootable-windows-10-usb-from-macos-395773d4782e">Create Bootable</a> - Windows 10 Media Creation Tool</li>
+<li><a href="https://www.tonymacx86.com/resources/categories/kexts.11/">Kexts</a> - UEFI Kexts</li>
+<li><a href="https://gitlab.com/Pixel-Mqster/File-Find">File Find</a> - File Explorer / Manager</li>
+<li><a href="https://apps.apple.com/in/app/download-shuttle-fast-file/id847809913">Download Shuttle</a> or <a href="https://macpsd.net/">Progressive Downloader</a> - File Download Manager</li>
+<li><a href="https://redd.it/vthltc">AirDrop to Windows</a> - AirDrop to Windows Guide</li>
+<li><a href="https://fmhy.pages.dev/base64/#mac-adobe-cc">Adobe Creative Cloud</a> - Adobe CC Guides</li>
+<li><a href="https://github.com/Drovosek01/adobe-packager">Adobe Packager</a> - Adobe Portable Installer Script</li>
+<li><a href="https://ss64.com/osx/">ss64 OSX</a> - MacOS Bash Commands</li>
+<li><a href="https://browserosaurus.com/">Browserosaurus</a> - Browser Prompter</li>
+<li><a href="https://browser.kagi.com/">Orion</a> - Webkit Browser with Chrome &amp; Firefox extensions / <a href="https://discord.gg/E9EKaPZR">Discord</a></li>
+<li><a href="https://strongboxsafe.com/">Strongbox</a> - Password Manager</li>
+<li><a href="https://maccy.app/">Maccy</a> - Clipboard Manager</li>
+<li><a href="https://leftonread.me/">Left on Read</a> - iMessage Client / <a href="https://github.com/Left-on-Read/leftonread">Github</a></li>
+<li><a href="https://goodsnooze.gumroad.com/l/macbing">MacBing</a> - Bing Chat</li>
+<li><a href="https://www.vienna-rss.com/">ViennaRSS</a> - RSS Feed Reader</li>
+<li><a href="https://github.com/dialect-app/dialect">Dialect</a> - Translator</li>
+<li><a href="https://sindresorhus.com/aiko">Aiko</a> - Audio Transcriber</li>
+<li><a href="https://getdrafts.com/">Drafts</a>, <a href="https://macromates.com/">TextMate</a>, <a href="https://apps.apple.com/us/app/nebo-notes-pdf-annotations/id1119601770">Nebo</a>, <a href="https://github.com/file-acomplaint/kyun">Kyun</a> or <a href="http://www.voodoopad.com/">Voodoopad</a> - Text Editors / Notes</li>
+<li><a href="https://www.taskpaper.com/">Taskpaper</a> - To-Do Apps</li>
+<li><a href="https://stroke.lllllllllllllllll.com/">Stroke</a> - Text (You Can&#x27;t Delete) Editor</li>
+<li><a href="https://bibdesk.sourceforge.io/">BibDesk</a> - Bibliography Manager</li>
+<li><a href="https://github.com/vladimiry/ElectronMail">ElectronMail</a>, <a href="https://mimestream.com/">MimeStream</a> or <a href="https://sparkmailapp.com/">Spark</a> - Email Clients</li>
+<li><a href="https://macadmins.software/">Microsoft Mac Downloads</a> or <a href="https://github.com/alsyundawy/Microsoft-Office-For-MacOS">Microsoft-Office-For-MacOS</a> - Office Suites</li>
+<li><a href="https://github.com/WhyNotHugo/kbdlight">kbdlight</a> - Change MacBook Keyboard Backlight Level</li>
+<li><a href="https://apps.apple.com/in/app/keypad-bluetooth-keyboard/id1491684442">KeyPad</a> - Connect Mac Keyboard to Mobile Devices</li>
+<li><a href="https://github.com/danqing/Pinch">Pinch</a> - Trackpad Pinch to Zoom Gesture</li>
+<li><a href="https://linearmouse.app/">LinearMouse</a> - Custom Mouse / Trackpad Options</li>
+<li><a href="https://www.mediaatelier.com/CheatSheet/">CheatSheet</a> - Shortcut CheatSheet for Current Application</li>
+<li><a href="https://monitorcontrol.app/">MonitorControl</a> - External Monitor Brightness / Volume Control</li>
+<li><a href="https://github.com/kyleneideck/BackgroundMusic">BackgroundMusic</a> - Volume Mixer / Auto-Pause</li>
+<li><a href="https://batterybuddy.app/">BatteryBuddy</a> - Cute Battery Indicator</li>
+<li><a href="https://bunchapp.co/">Bunch</a> - Task Automation</li>
+<li><a href="https://www.macscripter.net/">MacScripter</a> - Automation Forum</li>
+<li><a href="https://github.com/positive-security/find-you">Find You</a> - Track Bluetooth Devices</li>
+<li><a href="https://redsweater.com/touche/">Touché</a> - Touch Bar Simulator</li>
+<li><a href="https://pock.app/">pock</a> - Touch Bar Widget Manager / <a href="https://github.com/pock/pock">GitHub</a></li>
+<li><a href="https://www.mowglii.com/itsycal/">Itsycal</a> - Menu Bar Calendar</li>
+<li><a href="https://abhishekbanthia.com/clocker/">Clocker</a> - Menu Bar Meetngs Calendar</li>
+<li><a href="https://xbarapp.com/">xbar</a> - Manage Menu Bar Items / <a href="https://github.com/matryer/xbar">GitHub</a></li>
+<li><a href="https://github.com/hazcod/maclaunch">MacLaunch</a> - Manage Startup Items</li>
+<li><a href="https://github.com/jacklandrin/OnlySwitch">OnlySwitch</a> - Menu Bar Toggle Switches</li>
+<li><a href="https://github.com/sveinbjornt/Sloth">Sloth</a> - MacOS Process Manager</li>
+<li><a href="https://github.com/checkra1n/pongoOS">pongoOS</a> - Mac Pre-Boot Executor</li>
+<li><a href="https://github.com/koekeishiya/yabai">Yabai</a> or <a href="https://rectangleapp.com/">Rectangle</a> - Window Tiling Apps</li>
+<li><a href="https://github.com/davidwernhart/AlDente-Charge-Limiter">AlDente</a> - MacOS Charging Manager</li>
+<li><a href="https://github.com/paolo-projects/unlocker">Unlocker</a> - VMware Unlocker</li>
+<li><a href="https://github.com/corpnewt/USBMap">USBMap</a> - Map MacOS USB Ports</li>
+<li><a href="https://github.com/powershell/powershell">PowerShell</a> - PowerShell</li>
+<li><a href="https://iterm2.com/">iTerm2</a> - Replacement for Terminal</li>
+<li><a href="https://asciinema.org/">asciinema</a> - Terminal Recorder</li>
+<li><a href="https://github.com/waydabber/BetterDisplay">BetterDisplay</a> - Display Controller</li>
+<li><a href="https://pictogramapp.com/">Pictogram</a> or <a href="https://www.macenhance.com/iconchamp.html">IconChamp</a> - Custom App Icons</li>
+<li><a href="https://github.com/tale/iconset">IconSet</a> or <a href="https://www.macenhance.com/iconchamp.html">IconChamp</a> - Custom System Icons</li>
+<li><a href="https://github.com/neilsardesai/Manila">Manila</a> - Change Folder Colors</li>
+<li><a href="https://dynamicwallpaper.club/">Dynamic Wallpaper Club</a> - MacOS Dynamic Wallpaper App</li>
+<li><a href="https://github.com/mczachurski/wallpapper">wallpapper</a> - Dynamic Wallpaper Creator</li>
+<li><a href="https://github.com/ryan-mooore/earthview-desktop">Earthview Desktop</a> - Dynamic Earth Wallpapers</li>
+<li><a href="https://github.com/sindresorhus/Plash">Plash</a> - Use Website as Wallpaper</li>
+<li><a href="https://github.com/bjdehang/100-macos-screensavers">100 macOS Screensavers</a> - Minimalist Screensavers</li>
+<li><a href="https://github.com/insidegui/DarkModeBuddy">DarkModeBuddy</a> or <a href="https://github.com/luckymarmot/ThemeKit">ThemeKit</a> - System Dark Mode Apps</li>
+<li><a href="https://bootcampdrivers.com/">Bootcamp Drivers</a> - Mac Bootcamp AMD Drivers</li>
+<li><a href="https://iina.io/">IINA</a> - Video Player</li>
+<li><a href="https://sindresorhus.com/gifski">Gifski</a> - Image to GIF Converter / <a href="https://github.com/sindresorhus/Gifski">GitHub</a></li>
+<li><a href="https://apps.apple.com/us/app/darkroom-photo-video-editor/id953286746">Darkroom</a> - Image / Video Editor</li>
+<li><a href="https://github.com/wulkano/Kap">Kap</a> - Screen Recorder</li>
+<li><a href="https://apps.apple.com/us/app/garageband/id682658836?mt=12">Garageband</a> - Audio Editor</li>
+<li><a href="https://yoshimi.github.io/">Yoshimi</a> - Audio Synthesizer</li>
+<li><a href="https://archive.org/details/conversationsnetwork_org-levelator">The Levelator</a> - Automatic Audio Level Adjustments</li>
+<li><a href="https://github.com/JupiterBroadcasting/CasterSoundboard">CasterSoundboard</a> - Soundboard</li>
+<li><a href="https://sourceforge.net/projects/xld/">XLD</a> - Lossless Audio Transcoder</li>
+<li><a href="https://github.com/ExistentialAudio/BlackHole">BlackHole</a> - Pass Audio to Apps</li>
+<li><a href="https://apps.apple.com/us/app/mubert-ai-music-streaming/id1154429580">Mubert AI</a> - AI Music Radio</li>
+<li><a href="https://apps.apple.com/us/app/playlisty-the-playlist-tool/id1459275972">Playlisty</a> - Transfer Apple Music Playlists to Spotify</li>
+<li><a href="https://apps.apple.com/us/app/image-tricks-lite/id403735824?mt=12">Image Tricks Lite</a> or <a href="https://sourceforge.net/projects/seashore/">SeaShore</a> - Image Editor</li>
+<li><a href="https://imageoptim.com/mac">ImageOptim</a> - Image Optimization</li>
+<li><a href="https://github.com/feramhq/Perspec">Perspec</a> - Correct Perspective of Images</li>
+<li><a href="https://apps.apple.com/us/app/draw-things-ai-generation/id6444050820">Draw Things</a> - AI Image Drawing Tool</li>
+<li><a href="https://github.com/breadthe/sd-buddy">SD Buddy</a> or <a href="https://github.com/huggingface/swift-coreml-diffusers">Swift Core ML Diffusers</a> - Stable Diffusion Apps</li>
+<li><a href="https://colorslurp.com/">ColorSlurp</a> or <a href="https://github.com/BafS/Material-Colors-native">Material-Colors-native</a> - Color Picker</li>
+<li><a href="https://usecontrast.com/">Use Contrast</a> - Check Color Contrast Ratios</li>
+<li><a href="https://michelf.ca/projects/sim-daltonism/">Sim Daltoinism</a> - Color Blindness Simulator</li>
+<li><a href="https://www.animebox.es/">AnimeBox</a> - Booru Client</li>
+<li><a href="https://malupdaterosx.moe/hachidori/">Hachidori</a> - Automatically Update MAL/Anilist/Kitsu Lists</li>
+<li><a href="https://magit.vc/">Magit!</a> - Git Text-Based UI</li>
+<li><a href="https://github.com/corpnewt/ProperTree">ProperTree</a> - GUI Plist Editor</li>
+<li><a href="https://github.com/KhaosT/nhcalc">NHCalc</a> - Compute Image NeuralHash</li>
+<li><a href="https://github.com/AsuharietYgvar/AppleNeuralHash2ONNX">AppleNeuralHash2ONNX</a> - Convert NeuralHash for CSAM Detection to ONNX / <a href="https://github.com/anishathalye/neural-hash-collider">Collision Finder</a></li>
+<li><a href="https://isapplesiliconready.com/">Is Apple Silicon ready?</a> - M1 App Compatibility Chart</li>
+<li><a href="https://selfcontrolapp.com/">SelfControlApp</a> - Website Blocker</li>
+<li><a href="https://apps.apple.com/us/app/typist/id415166115?ign-mpt=uo%3D4&amp;mt=12">Typist</a> - Typing Practice</li>
+<li><a href="https://apps.apple.com/us/app/comet-for-reddit/id1146204813">Comet</a> or <a href="https://github.com/Dimillian/RedditOS">RedditOS</a> - Reddit Client</li>
+<li><a href="https://github.com/hql287/Manta">Manta</a> - Invoice Manager</li>
+<li><a href="https://github.com/rkbhochalya/grayscale-mode">Grayscale Mode</a> - Grayscale Control</li>
+<li><a href="https://macosicons.com/">MacOSIcons</a> - MacOS Icons</li>
+<li><a href="https://equinux.github.io/">equinux</a> - OS X Certificate Fix</li>
+<li><a href="https://github.com/acidanthera/Lilu">Lilu</a> - Kext / Process Patcher</li>
+<li><a href="https://www.jenv.be/">JenV</a> - Java Environment Manager / <a href="https://github.com/jenv/jenv">GitHub</a></li>
+<li><a href="https://topnotch.app/">TopNotch</a> - Remove The Notch</li>
+</ul>
+<doc-anchor-target id="adblock--privacy-1">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#adblock--privacy-1">#</doc-anchor-trigger>
+        <span>Adblock / Privacy</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/ashishb/osx-and-ios-security-awesome">Awesome OSX Security</a></strong> - Mac Security Resources</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.malwarebytes.com/mac-download">Malwarebytes</a></strong>, <a href="https://objective-see.org/products/blockblock.html">BlockBlock</a> or <a href="https://objective-see.org/products/knockknock.html">KnockKnock</a> - Antivirus</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://champagne.pages.dev/before-you-begin/important-tools/">System Wide Adblocking</a></strong> - System Wide Adblocking Guide</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/jetfir3/SpotX-Bash">SpotX-Bash</a></strong>, <a href="https://redd.it/y2zt58">Spotify Adblock Guide</a> or <a href="https://github.com/Devanshu-17/Mac_Spotify_Adblock">Mac_Spotify_Adblock</a> - Spotify Adblockers</li>
+<li><a href="https://github.com/drduh/macOS-Security-and-Privacy-Guide">MacOS Privacy Guide</a> - Mac Privacy &amp; Security Guides</li>
+<li><a href="https://getsentinel.io/">Sentinel</a> - Two-Factor Authentication</li>
+<li><a href="https://github.com/2ndalpha/gasmask">Gas Mask</a> - Block Ads via Host Files</li>
+<li><a href="https://incoggo.com/">Incoggo</a> - Adblocker</li>
+<li><a href="https://1fichier.com/?ef26ks4abjzct7o1k8os">Adguard DNS</a> - Adblocking Profile</li>
+<li><a href="https://lockdownprivacy.com/">Lockdown Privacy</a> - Block Trackers / Ads</li>
+<li><a href="https://github.com/alichtman/stronghold">Stronghold</a> - Mac Security Settings Terminal</li>
+<li><a href="https://objective-see.org/products/lulu.html">LuLu</a> - Mac Firewall</li>
+<li><a href="https://github.com/manasecurity/mana-security-app">Mana</a> - App Security Monitor</li>
+<li><a href="https://objective-see.org/products/ransomwhere.html">RansomWhere?</a> - Ransomware Blocker</li>
+<li><a href="https://objective-see.org/products/oversight.html">OverSight</a> - Webcam / Mic Monitor</li>
+<li><a href="https://github.com/google/santa">Santa</a> - Binary Authorization System</li>
+<li><a href="https://github.com/squiffy/Masochist">Masochist</a> - XNU Rootkit Framework</li>
+<li><a href="https://objective-see.org/products/dhs.html">DHS</a> - Dylib Hijack Scanner</li>
+<li><a href="https://github.com/pstirparo/mac4n6">mac4n6</a> - Forensic Artifact Locations</li>
+<li><a href="https://objective-see.org/products/whatsyoursign.html">What&#x27;s Your Sign?</a> - View File Cryptographic Signatures</li>
+<li><a href="https://rknight.me/apps/tracker-zapper/">Tracker Zapper</a> - Remove URL Tracking Elements</li>
+<li><a href="https://halo.github.io/LinkLiar/">LinkLiar</a> - Spoof MAC Address&#x27;</li>
+<li><a href="https://support.apple.com/en-us/HT204837">FileVault</a> - Mac Disk Encryption</li>
+<li><a href="https://www.code-signing.app/">Code Signing</a> - Validate Code Signature</li>
+<li><a href="https://objective-see.org/products/kextviewr.html">Kextviewr</a> - View All Kernel Modules</li>
+<li><a href="https://github.com/ydkhatri/mac_apt">mac_apt</a> - Artifact Parsing Tool</li>
+<li><a href="https://tunnelblick.net/">OpenVPN</a> or <a href="https://passepartoutvpn.app/">Passepartout</a> - VPN Tunnel</li>
+<li><a href="https://github.com/yanue/V2rayU">V2rayU</a> - DIY Privacy Network</li>
+<li><a href="https://apparition47.github.io/MailTrackerBlocker/">MailTrackerBlocker</a> - Privacy-Based Email Client</li>
+<li><a href="https://damus.io/">Damus</a> - Encrypted Messaging App</li>
+</ul>
+<doc-anchor-target id="mac-software">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mac-software">#</doc-anchor-trigger>
+        <span>Mac Software</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/iCHAIT/awesome-macOS">Awesome MacOS</a></strong>, <a href="https://opensource.apple.com/">OpenSourceApple</a>, <a href="https://github.com/jaywcjlove/awesome-mac">Awesome Mac</a> or <a href="https://github.com/serhii-londar/open-source-mac-os-apps">Awesome OS Apps</a> - FOSS App Indexes</li>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://macmenubar.com/">Mac Menu Bar</a></strong> - Menu Bar App Index</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://appstorrent.ru/">AppsTorrent</a></strong> / Use <a href="https://github.com/FilipePS/Traduzir-paginas-web#install">Translator</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://brew.sh/">Homebrew</a></strong> or <a href="https://aerolite.dev/applite/index.html">AppLite</a> - Package Managers</li>
+<li><a href="http://macintoshgarden.org/">Macintosh Garden</a></li>
+<li><a href="https://nmac.to/">nMac</a></li>
+<li><a href="https://www.macbed.com/">MacBed</a></li>
+<li><a href="https://www.pure-mac.com/">Pure Mac</a></li>
+<li><a href="https://www.macupdate.com/">Macupdate</a></li>
+<li><a href="https://cmacked.com/">Cmacked</a></li>
+<li><a href="https://www.torrentmac.net/">Mac Torrents</a></li>
+<li><a href="https://allmacworlds.com/">AllMacWorlds</a></li>
+<li><a href="https://insmac.org/">InsMac</a></li>
+<li><a href="https://macx.ws/">MacX</a></li>
+<li><a href="https://webcatalog.io/">WebCatalog</a></li>
+</ul>
+<doc-anchor-target id="mac-gaming">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mac-gaming">#</doc-anchor-trigger>
+        <span>Mac Gaming</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://applegamingwiki.com/">AppleGamingWiki</a></strong> - Mac Game Fixes / Compatibility</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://forum.torrminatorr.com/">Torrminatorr</a></strong></li>
+<li><a href="https://scnlog.me/">SCNLOG</a></li>
+<li><a href="https://nmac.to/">nMac</a></li>
+<li><a href="https://heroicgameslauncher.com/">HeroicGamesLauncher</a> / <a href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher">GitHub</a> - Epic Games Launcher</li>
+<li><a href="https://archive.org/download/nNASOS1.8/nNASOS1.8.zip">NASOS</a> - Gamecube iso.dec to ISO Converter</li>
+<li><a href="https://github.com/lanylow/rbxfpsunlocker-osx">rbxfpsunlocker-osx</a> - Roblox FPS Unlocker</li>
+<li><a href="https://cemu.emiyl.com/">cemu.emiyl</a> - CEMU Compatibility List</li>
+</ul>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../android-iosguide/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Android / i​OS</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../non-english/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">Non-​English</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Linux / MacOS", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>

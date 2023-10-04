@@ -1,0 +1,1637 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.749757962329">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.5.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Base64 | FreeMediaHeckYeah</title>
+    <meta name="title" content="Base64 | FreeMediaHeckYeah">
+    <meta name="description" content="Use any Base64 Decoding site or extension. Alternatively, install this userscript">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://fmhy.pages.dev/base64/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fmhy.pages.dev/base64/">
+    <meta property="og:title" content="Base64 | FreeMediaHeckYeah">
+    <meta property="og:description" content="Use any Base64 Decoding site or extension. Alternatively, install this userscript">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fmhy.pages.dev/base64/">
+    <meta property="twitter:title" content="Base64 | FreeMediaHeckYeah">
+    <meta property="twitter:description" content="Use any Base64 Decoding site or extension. Alternatively, install this userscript">
+
+    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../static/favicon.ico" rel="icon">
+    <link href="../resources/css/retype.css?v=3.5.0.749757962329" rel="stylesheet">
+
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.749757962329" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.749757962329" data-turbo-eval="false" defer></script>
+
+    <link rel="stylesheet" href="static/styles.css">
+
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../static/fmhy.ico">
+                                <img class="max-h-10 hidden dark:inline-block" src="../static/fmhy.ico">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">FMHY</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fmhy.divolt.xyz/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m3,0C1.35,0,0,1.35,0,3v13.5c0,1.65,1.35,3,3,3h4.5v3.75c0,.29.16.54.41.67.25.13.56.1.79-.07l5.8-4.35h6.5c1.65,0,3-1.35,3-3V3c0-1.65-1.35-3-3-3H3Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Chat</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fmhy-search.streamlit.app/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m19.5,9.75c0,2.15-.7,4.14-1.88,5.75l5.93,5.94c.59.59.59,1.54,0,2.12-.59.59-1.54.59-2.12,0l-5.93-5.94c-1.61,1.18-3.6,1.87-5.75,1.87C4.36,19.5,0,15.13,0,9.75S4.36,0,9.75,0s9.75,4.36,9.75,9.75Zm-9.75,6.75c3.73,0,6.75-3.02,6.75-6.75s-3.02-6.75-6.75-6.75-6.75,3.02-6.75,6.75,3.02,6.75,6.75,6.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Search</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m9.36,14.4c-.67,0-1.2-.54-1.2-1.19s.54-1.2,1.2-1.2,1.19.54,1.19,1.2-.54,1.19-1.19,1.19Zm14.64-2.4c0,6.63-5.37,12-12,12S0,18.63,0,12,5.37,0,12,0s12,5.37,12,12Zm-6.4-1.99c-.45,0-.86.19-1.15.48-1.08-.75-2.55-1.23-4.17-1.29l.84-3.79,2.68.6c0,.66.54,1.19,1.19,1.19s1.2-.55,1.2-1.2-.54-1.2-1.2-1.2c-.47,0-.87.28-1.07.67l-2.96-.66c-.15-.04-.3.07-.33.21l-.92,4.18c-1.61.07-3.05.55-4.14,1.3-.3-.31-.71-.49-1.17-.49-1.69,0-2.24,2.27-.7,3.04-.05.24-.08.49-.08.75,0,2.55,2.86,4.61,6.39,4.61s6.4-2.06,6.4-4.61c0-.26-.03-.52-.09-.76,1.51-.77.96-3.02-.72-3.02Zm-3.33,5.62c-.88.88-3.68.87-4.53,0-.11-.11-.3-.11-.4,0-.12.12-.12.31,0,.42,1.1,1.1,4.22,1.1,5.33,0,.12-.11.12-.3,0-.42-.11-.11-.3-.11-.4,0Zm.37-3.63c-.66,0-1.19.54-1.19,1.2s.54,1.19,1.19,1.19,1.2-.54,1.2-1.19-.53-1.2-1.2-1.2Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Reddit</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/fmhy">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m8.03,19.32c0,.1-.11.18-.25.18-.16.01-.27-.06-.27-.18,0-.1.11-.18.25-.18.15-.01.27.06.27.18Zm-1.5-.22c-.03.1.06.21.21.24.13.05.27,0,.3-.1s-.06-.21-.21-.26c-.13-.03-.27.01-.3.11Zm2.14-.08c-.14.03-.24.13-.22.24.01.1.14.16.29.13.14-.03.24-.13.22-.23-.01-.09-.15-.16-.29-.14ZM11.85,0C5.13,0,0,5.23,0,12.11c0,5.5,3.38,10.21,8.2,11.87.62.11.84-.28.84-.6s-.01-2-.01-3.05c0,0-3.39.74-4.1-1.48,0,0-.55-1.44-1.35-1.82,0,0-1.11-.78.08-.76,0,0,1.2.1,1.87,1.28,1.06,1.92,2.84,1.36,3.53,1.04.11-.79.43-1.34.77-1.67-2.7-.31-5.43-.71-5.43-5.48,0-1.36.37-2.05,1.14-2.92-.13-.32-.54-1.65.13-3.37,1.01-.32,3.34,1.34,3.34,1.34.97-.28,2.01-.42,3.04-.42s2.07.14,3.04.42c0,0,2.33-1.67,3.34-1.34.66,1.72.25,3.05.13,3.37.77.88,1.25,1.56,1.25,2.92,0,4.79-2.85,5.17-5.55,5.48.45.39.82,1.14.82,2.3,0,1.67-.01,3.74-.01,4.15,0,.32.22.71.84.6,4.84-1.65,8.12-6.36,8.12-11.86C24,5.23,18.56,0,11.85,0Zm-7.14,17.12c-.06.05-.05.16.03.26.08.08.19.11.25.05.06-.05.05-.16-.03-.26-.08-.08-.19-.11-.25-.05Zm-.52-.4c-.03.06.01.14.11.19.08.05.17.03.21-.03.03-.06-.01-.14-.11-.19-.1-.03-.17-.01-.21.03Zm1.57,1.77c-.08.06-.05.21.06.31.11.11.25.13.31.05.06-.06.03-.21-.06-.31-.11-.11-.25-.13-.31-.05Zm-.55-.73c-.08.05-.08.18,0,.29s.21.16.27.11c.08-.06.08-.19,0-.31-.07-.11-.19-.16-.27-.1Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Github</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/updates/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M9.197 10a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-2.382 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-1.581 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z"/><path d="M4.125 0h15.75a4.11 4.11 0 0 1 2.92 1.205A4.11 4.11 0 0 1 24 4.125c0 1.384-.476 2.794-1.128 4.16-.652 1.365-1.515 2.757-2.352 4.104l-.008.013c-.849 1.368-1.669 2.691-2.28 3.97-.614 1.283-.982 2.45-.982 3.503a2.625 2.625 0 1 0 4.083-2.183.75.75 0 1 1 .834-1.247A4.126 4.126 0 0 1 19.875 24H4.5a4.125 4.125 0 0 1-4.125-4.125c0-2.234 1.258-4.656 2.59-6.902.348-.586.702-1.162 1.05-1.728.8-1.304 1.567-2.553 2.144-3.738H3.39c-.823 0-1.886-.193-2.567-1.035A3.647 3.647 0 0 1 0 4.125 4.125 4.125 0 0 1 4.125 0ZM15.75 19.875c0-1.38.476-2.786 1.128-4.15.649-1.358 1.509-2.743 2.343-4.086l.017-.028c.849-1.367 1.669-2.692 2.28-3.972.614-1.285.982-2.457.982-3.514A2.615 2.615 0 0 0 19.875 1.5a2.625 2.625 0 0 0-2.625 2.625c0 .865.421 1.509 1.167 2.009A.75.75 0 0 1 18 7.507H7.812c-.65 1.483-1.624 3.069-2.577 4.619-.334.544-.666 1.083-.98 1.612-1.355 2.287-2.38 4.371-2.38 6.137A2.625 2.625 0 0 0 4.5 22.5h12.193a4.108 4.108 0 0 1-.943-2.625ZM1.5 4.125c-.01.511.163 1.008.487 1.403.254.313.74.479 1.402.479h12.86a3.648 3.648 0 0 1-.499-1.882 4.11 4.11 0 0 1 .943-2.625H4.125A2.625 2.625 0 0 0 1.5 4.125Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Updates</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-gray-400 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 dark:placeholder-dark-400" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-dark-650">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fmhy.divolt.xyz/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m3,0C1.35,0,0,1.35,0,3v13.5c0,1.65,1.35,3,3,3h4.5v3.75c0,.29.16.54.41.67.25.13.56.1.79-.07l5.8-4.35h6.5c1.65,0,3-1.35,3-3V3c0-1.65-1.35-3-3-3H3Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Chat</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fmhy-search.streamlit.app/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m19.5,9.75c0,2.15-.7,4.14-1.88,5.75l5.93,5.94c.59.59.59,1.54,0,2.12-.59.59-1.54.59-2.12,0l-5.93-5.94c-1.61,1.18-3.6,1.87-5.75,1.87C4.36,19.5,0,15.13,0,9.75S4.36,0,9.75,0s9.75,4.36,9.75,9.75Zm-9.75,6.75c3.73,0,6.75-3.02,6.75-6.75s-3.02-6.75-6.75-6.75-6.75,3.02-6.75,6.75,3.02,6.75,6.75,6.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Search</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m9.36,14.4c-.67,0-1.2-.54-1.2-1.19s.54-1.2,1.2-1.2,1.19.54,1.19,1.2-.54,1.19-1.19,1.19Zm14.64-2.4c0,6.63-5.37,12-12,12S0,18.63,0,12,5.37,0,12,0s12,5.37,12,12Zm-6.4-1.99c-.45,0-.86.19-1.15.48-1.08-.75-2.55-1.23-4.17-1.29l.84-3.79,2.68.6c0,.66.54,1.19,1.19,1.19s1.2-.55,1.2-1.2-.54-1.2-1.2-1.2c-.47,0-.87.28-1.07.67l-2.96-.66c-.15-.04-.3.07-.33.21l-.92,4.18c-1.61.07-3.05.55-4.14,1.3-.3-.31-.71-.49-1.17-.49-1.69,0-2.24,2.27-.7,3.04-.05.24-.08.49-.08.75,0,2.55,2.86,4.61,6.39,4.61s6.4-2.06,6.4-4.61c0-.26-.03-.52-.09-.76,1.51-.77.96-3.02-.72-3.02Zm-3.33,5.62c-.88.88-3.68.87-4.53,0-.11-.11-.3-.11-.4,0-.12.12-.12.31,0,.42,1.1,1.1,4.22,1.1,5.33,0,.12-.11.12-.3,0-.42-.11-.11-.3-.11-.4,0Zm.37-3.63c-.66,0-1.19.54-1.19,1.2s.54,1.19,1.19,1.19,1.2-.54,1.2-1.19-.53-1.2-1.2-1.2Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Reddit</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/fmhy">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m8.03,19.32c0,.1-.11.18-.25.18-.16.01-.27-.06-.27-.18,0-.1.11-.18.25-.18.15-.01.27.06.27.18Zm-1.5-.22c-.03.1.06.21.21.24.13.05.27,0,.3-.1s-.06-.21-.21-.26c-.13-.03-.27.01-.3.11Zm2.14-.08c-.14.03-.24.13-.22.24.01.1.14.16.29.13.14-.03.24-.13.22-.23-.01-.09-.15-.16-.29-.14ZM11.85,0C5.13,0,0,5.23,0,12.11c0,5.5,3.38,10.21,8.2,11.87.62.11.84-.28.84-.6s-.01-2-.01-3.05c0,0-3.39.74-4.1-1.48,0,0-.55-1.44-1.35-1.82,0,0-1.11-.78.08-.76,0,0,1.2.1,1.87,1.28,1.06,1.92,2.84,1.36,3.53,1.04.11-.79.43-1.34.77-1.67-2.7-.31-5.43-.71-5.43-5.48,0-1.36.37-2.05,1.14-2.92-.13-.32-.54-1.65.13-3.37,1.01-.32,3.34,1.34,3.34,1.34.97-.28,2.01-.42,3.04-.42s2.07.14,3.04.42c0,0,2.33-1.67,3.34-1.34.66,1.72.25,3.05.13,3.37.77.88,1.25,1.56,1.25,2.92,0,4.79-2.85,5.17-5.55,5.48.45.39.82,1.14.82,2.3,0,1.67-.01,3.74-.01,4.15,0,.32.22.71.84.6,4.84-1.65,8.12-6.36,8.12-11.86C24,5.23,18.56,0,11.85,0Zm-7.14,17.12c-.06.05-.05.16.03.26.08.08.19.11.25.05.06-.05.05-.16-.03-.26-.08-.08-.19-.11-.25-.05Zm-.52-.4c-.03.06.01.14.11.19.08.05.17.03.21-.03.03-.06-.01-.14-.11-.19-.1-.03-.17-.01-.21.03Zm1.57,1.77c-.08.06-.05.21.06.31.11.11.25.13.31.05.06-.06.03-.21-.06-.31-.11-.11-.25-.13-.31-.05Zm-.55-.73c-.08.05-.08.18,0,.29s.21.16.27.11c.08-.06.08-.19,0-.31-.07-.11-.19-.16-.27-.1Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Github</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/updates/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M9.197 10a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-2.382 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-1.581 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z"/><path d="M4.125 0h15.75a4.11 4.11 0 0 1 2.92 1.205A4.11 4.11 0 0 1 24 4.125c0 1.384-.476 2.794-1.128 4.16-.652 1.365-1.515 2.757-2.352 4.104l-.008.013c-.849 1.368-1.669 2.691-2.28 3.97-.614 1.283-.982 2.45-.982 3.503a2.625 2.625 0 1 0 4.083-2.183.75.75 0 1 1 .834-1.247A4.126 4.126 0 0 1 19.875 24H4.5a4.125 4.125 0 0 1-4.125-4.125c0-2.234 1.258-4.656 2.59-6.902.348-.586.702-1.162 1.05-1.728.8-1.304 1.567-2.553 2.144-3.738H3.39c-.823 0-1.886-.193-2.567-1.035A3.647 3.647 0 0 1 0 4.125 4.125 4.125 0 0 1 4.125 0ZM15.75 19.875c0-1.38.476-2.786 1.128-4.15.649-1.358 1.509-2.743 2.343-4.086l.017-.028c.849-1.367 1.669-2.692 2.28-3.972.614-1.285.982-2.457.982-3.514A2.615 2.615 0 0 0 19.875 1.5a2.625 2.625 0 0 0-2.625 2.625c0 .865.421 1.509 1.167 2.009A.75.75 0 0 1 18 7.507H7.812c-.65 1.483-1.624 3.069-2.577 4.619-.334.544-.666 1.083-.98 1.612-1.355 2.287-2.38 4.371-2.38 6.137A2.625 2.625 0 0 0 4.5 22.5h12.193a4.108 4.108 0 0 1-.943-2.625ZM1.5 4.125c-.01.511.163 1.008.487 1.403.254.313.74.479 1.402.479h12.86a3.648 3.648 0 0 1-.499-1.882 4.11 4.11 0 0 1 .943-2.625H4.125A2.625 2.625 0 0 0 1.5 4.125Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Updates</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<doc-anchor-target id="base64" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#base64">#</doc-anchor-trigger>
+        <span>Base64</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="how-to-decode-links">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-decode-links">#</doc-anchor-trigger>
+        <span>How-to Decode Links</span>
+    </h3>
+</doc-anchor-target>
+<p>Use any <strong><a href="https://fmhy.pages.dev/storage/#encode--decode-urls">Base64 Decoding</a></strong> site or extension.
+Alternatively, install this <a href="https://rentry.co/wc7s2/raw">userscript</a></p>
+<doc-anchor-target id="mirrors">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mirrors">#</doc-anchor-trigger>
+        <span>Mirrors</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><a href="https://fmhy.net/base64">https://fmhy.net/base64</a></li>
+<li><a href="https://fmhy.pages.dev/base64/">https://fmhy.pages.dev/base64/</a></li>
+<li><a href="https://github.com/nbats/FMHYedit/blob/main/base64.md">https://github.com/nbats/FMHYedit/blob/main/base64.md</a></li>
+<li><a href="https://notabug.org/nbatman/freemediaheckyeah/wiki/base64">https://notabug.org/nbatman/freemediaheckyeah/wiki/base64</a></li>
+<li><a href="https://rentry.co/FMHYBase64">https://rentry.co/FMHYBase64</a></li>
+</ul>
+<doc-anchor-target id="reks-drive">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#reks-drive">#</doc-anchor-trigger>
+        <span>Rek&#x27;s Drive</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9pWVEzU1liQSNfbzllTzRvMWVpQ2Q4UXNDVFU3aVV3</code></p>
+<doc-anchor-target id="17tb-mega-drive">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#17tb-mega-drive">#</doc-anchor-trigger>
+        <span>17TB Mega Drive</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9KazhSaklCQSNfZFROdGhVWDNMTDdPd1NhYXVxSXB3</code></p>
+<doc-anchor-target id="media">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#media">#</doc-anchor-trigger>
+        <span>Media</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMUZFWFFXTjVzelBCVGF1M0VQRmFDOFBrT2dwM3Y0Y3Zl</code></p>
+<doc-anchor-target id="188165227112">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#188165227112">#</doc-anchor-trigger>
+        <span>188.165.227.112</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cDovLzE4OC4xNjUuMjI3LjExMi9wb3J0YWlsLw==</code></p>
+<doc-anchor-target id="مسلسلات-اجنبية">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#مسلسلات-اجنبية">#</doc-anchor-trigger>
+        <span>مسلسلات اجنبية</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMEIxOU9vSUMzMVVOMGVVRTRPRVJqU1hZeGNVRQ==</code></p>
+<doc-anchor-target id="4k-movie-collection">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#4k-movie-collection">#</doc-anchor-trigger>
+        <span>4k Movie Collection</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9QdDhBSExBQyN0QXRlM2dObE5vc3N0aG9IaVNDTDV3</code></p>
+<doc-anchor-target id="mix-bag-of-anime">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mix-bag-of-anime">#</doc-anchor-trigger>
+        <span>Mix Bag of Anime</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZWRkLml0L25zYTh5Zw==</code></p>
+<doc-anchor-target id="1763686211">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#1763686211">#</doc-anchor-trigger>
+        <span>176.36.86.211</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cDovLzE3Ni4zNi44Ni4yMTEvdmlkZW8vYW5pbWUv</code></p>
+<doc-anchor-target id="166847155">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#166847155">#</doc-anchor-trigger>
+        <span>166.84.7.155</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly8xNjYuODQuNy4xNTUvYW5pbWUv</code></p>
+<doc-anchor-target id="ns3309227">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ns3309227">#</doc-anchor-trigger>
+        <span>ns3309227</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cDovL25zMzMwOTIyNy5pcC0xNzgtMzItMjIyLmV1Lw==</code></p>
+<doc-anchor-target id="belia">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#belia">#</doc-anchor-trigger>
+        <span>belia</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9iZWxpYS5mci9ldmcv</code></p>
+<doc-anchor-target id="anime-time-drive">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#anime-time-drive">#</doc-anchor-trigger>
+        <span>Anime Time Drive</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hdGRyaXZlLmFuaW1ldGltZXNlcnZlci53b3JrZXJzLmRldi8wOi8K</code></p>
+<doc-anchor-target id="geedryve">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#geedryve">#</doc-anchor-trigger>
+        <span>geedryve</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9qYWNvYnNtLmNvbS9nZWVkcnl2ZS9yZWNvcmRzL21wM3Mv</code></p>
+<doc-anchor-target id="rhapsody">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rhapsody">#</doc-anchor-trigger>
+        <span>Rhapsody</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cDovLzY1LjE4Ni43OC41Mi9NVVNJQy9SSEFQU09EWS8=</code></p>
+<doc-anchor-target id="tyler">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tyler">#</doc-anchor-trigger>
+        <span>TYLER</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cDovLzY1LjE4Ni43OC41Mi9NVVNJQy9UWUxFUi8=</code></p>
+<doc-anchor-target id="moe81">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#moe81">#</doc-anchor-trigger>
+        <span>Moe:81</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cDovL21peWEubmlwYWgubW9lOjgxL3B1YmxpYy9tdXNpYy8=</code></p>
+<doc-anchor-target id="gta-radio-stations">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#gta-radio-stations">#</doc-anchor-trigger>
+        <span>GTA Radio Stations</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cDovL3R3bzY2LmNvbS9taXJyb3JzLz9kaXI9R1RBLVJhZGlvLVN0YXRpb25z</code></p>
+<doc-anchor-target id="burntscarr">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#burntscarr">#</doc-anchor-trigger>
+        <span>BurntScarr</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cDovL3d3dy5idXJudHNjYXJyLmNvbS9idXJudHNjYXJyL1NURU1TLw==</code></p>
+<doc-anchor-target id="setlists">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setlists">#</doc-anchor-trigger>
+        <span>Setlists</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vc3ByZWFkc2hlZXRzL2QvMTNCODIzdWt4ZFZNb2Nvd28xczVYblQzdHpjaU9mcnVoVVZlUEVOS2MwMW8v</code></p>
+<doc-anchor-target id="80s">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#80s">#</doc-anchor-trigger>
+        <span>80s</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cDovLzgwcy5sdC8/ZGlyPUZpbGVzJTJGR2FtZXM=</code></p>
+<doc-anchor-target id="sundby">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#sundby">#</doc-anchor-trigger>
+        <span>Sundby</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLnN1bmRieS5jb20vcmV0cm8v</code></p>
+<doc-anchor-target id="no-intro">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#no-intro">#</doc-anchor-trigger>
+        <span>No-Intro</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzL25vLWludHJvX3JvbXNldHMKaHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzL05vLUludHJvLUNvbGxlY3Rpb25fMjAxNi0wMS0wM19GaXhlZApodHRwczovL2FyY2hpdmUub3JnL2RldGFpbHMvTm8tSW50cm8tQ29sbGVjdGlvbl8yMDE2LTA5LTA2</code></p>
+<doc-anchor-target id="alvro">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#alvro">#</doc-anchor-trigger>
+        <span>AlvRo</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vc3ByZWFkc2hlZXRzL2QvMTl0QVoxS05FVVo1OGUtNGtQSkdoOTQ3YWxEYjFveXJOcHpjbkNMazdERUUvcHViaHRtbA==</code></p>
+<doc-anchor-target id="romcenter">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#romcenter">#</doc-anchor-trigger>
+        <span>RomCenter</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vMjR1ZngKaHR0cHM6Ly9wYXN0ZWxpbmsubmV0LzI2bmxqCmh0dHBzOi8vcmVudHJ5LmNvL3Zpbjd4</code></p>
+<doc-anchor-target id="rom-gdrive">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rom-gdrive">#</doc-anchor-trigger>
+        <span>Rom GDrive</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMVZ4aklOWU1EdnZVU1JLQV9rMmFKcXE2SnptUlFDSTFzCmh0dHBzOi8vZHJpdmUuZ29vZ2xlLmNvbS9kcml2ZS9mb2xkZXJzLzFDaG9UcHV1QkxxNG5FVkNkZHQ2TDlmWDI0UjJ5SDNaagpodHRwczovL2RyaXZlLmdvb2dsZS5jb20vZHJpdmUvZm9sZGVycy8xOEhIVVZObEhyRGZVQnA5eDlZbzlVTGlacUtPTzZhUW8=</code></p>
+<doc-anchor-target id="squid-proxy">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#squid-proxy">#</doc-anchor-trigger>
+        <span>Squid Proxy</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly93d3cuc3F1aWQtcHJveHkueHl6Lw==</code></p>
+<doc-anchor-target id="finalburn-neo">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#finalburn-neo">#</doc-anchor-trigger>
+        <span>FinalBurn Neo</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzLzIwMjBfMDFfMDZfZmJu</code></p>
+<doc-anchor-target id="everdrive">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#everdrive">#</doc-anchor-trigger>
+        <span>Everdrive</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzL2xhdGVzdC1ldmVyZHJpdmUtcGFjay0yMDIwLTA0LTE2</code></p>
+<doc-anchor-target id="many-dumped-games">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#many-dumped-games">#</doc-anchor-trigger>
+        <span>Many Dumped Games</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzL0BtYW55ZHVtcGVkZ2FtZXM=</code></p>
+<doc-anchor-target id="nwifiresticks">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#nwifiresticks">#</doc-anchor-trigger>
+        <span>nwifiresticks</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cDovL253aWZpcmVzdGlja3MuY29tL3JvbXMv</code></p>
+<doc-anchor-target id="tosec">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tosec">#</doc-anchor-trigger>
+        <span>TOSEC</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzL1RPU0VDX1YyMDE3LTA0LTIzCmh0dHBzOi8vYXJjaGl2ZS5vcmcvZGV0YWlscy90b3NlYw==</code></p>
+<doc-anchor-target id="pc-98">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pc-98">#</doc-anchor-trigger>
+        <span>pc-98</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9GNTlXa1NxUSNxdUdLU0ZJc3dCZ3YwcnhBQWFGOFBn</code></p>
+<doc-anchor-target id="powerslave-ex">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#powerslave-ex">#</doc-anchor-trigger>
+        <span>Powerslave EX</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xVkZ2T1lLeWp5RndINXNxU0w1bXpfamwzU2RJVWNBT1kvdmlldz91c3A9c2hhcmluZw==</code></p>
+<doc-anchor-target id="software-library-flash">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#software-library-flash">#</doc-anchor-trigger>
+        <span>Software Library: Flash</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzL3NvZnR3YXJlbGlicmFyeV9mbGFzaA==</code></p>
+<doc-anchor-target id="reks-flash-game-collection">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#reks-flash-game-collection">#</doc-anchor-trigger>
+        <span>Rek&#x27;s Flash Game Collection</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXBfa0RkOXVKejcyUzNtOW83a2ExMzZmeENXUEVCS0VHP3VzcD1zaGFyaW5n</code></p>
+<doc-anchor-target id="classicgamesrar">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#classicgamesrar">#</doc-anchor-trigger>
+        <span>ClassicGames.rar</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xeWxIazQ2dmRWMWRaY2ZVVVNOREFUN0YyUlZvaThGRlMv</code></p>
+<p>pass: paluch</p>
+<doc-anchor-target id="the-flash-emulation-repair-shop">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#the-flash-emulation-repair-shop">#</doc-anchor-trigger>
+        <span>The Flash Emulation Repair Shop</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzL2ZsYXNoX3JlcGFpcl9zaG9w</code></p>
+<doc-anchor-target id="just-a-digital-library">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#just-a-digital-library">#</doc-anchor-trigger>
+        <span>just a digital library</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMWlRTWRxNXlLMEVCcWExZmdrbVFUZlc3RVdTZUpXWXZU</code></p>
+<doc-anchor-target id="echerdex-repository">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#echerdex-repository">#</doc-anchor-trigger>
+        <span>Echerdex Repository</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vZWNobGlua3Nz</code></p>
+<doc-anchor-target id="wilds-occult-ebook-sources">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#wilds-occult-ebook-sources">#</doc-anchor-trigger>
+        <span>WiLd&#x27;s Occult Ebook Sources</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9qdXN0cGFzdGUuaXQvV2lMZE9jY3VsdEVib29rcw==</code></p>
+<doc-anchor-target id="esoteric-library">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#esoteric-library">#</doc-anchor-trigger>
+        <span>Esoteric Library</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56LyNGIWpOOEdUU2FKIXhONng1UHY5ZGhxVDZ5TGhPNnIyT3c=</code></p>
+<doc-anchor-target id="766-occult-books">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#766-occult-books">#</doc-anchor-trigger>
+        <span>766 Occult Books</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cDovL3d3dy5tZWRpYWZpcmUuY29tL2ZpbGUvYWJnZ3B6Y2R4djA5dzgwL2Jvb2tzLnppcA==</code></p>
+<doc-anchor-target id="messy-occult-library">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#messy-occult-library">#</doc-anchor-trigger>
+        <span>Messy occult library</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56LyNGIUJObGpBS2hCIWVZM05mSDNEWnR0aG9jb2hXOEx3d2c=</code></p>
+<doc-anchor-target id="lefthandpath">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lefthandpath">#</doc-anchor-trigger>
+        <span>LeftHandPath</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56LyNGIUU0Y1N6WUJaIVNQZVFBMFd1U01WaF9vUXRwWW5ONXc=</code></p>
+<doc-anchor-target id="azrks-library">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#azrks-library">#</doc-anchor-trigger>
+        <span>Azrk&#x27;s library</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9mb2xkZXIvejd4OGtlYzlqaWRuMi9PY2N1bHQ=</code></p>
+<doc-anchor-target id="spirituality-megadrive">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#spirituality-megadrive">#</doc-anchor-trigger>
+        <span>Spirituality Megadrive</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56LyNGIWtkOWgxQTZZITF3YWVNdHhVcGtzQjllUXN3czBaY2c=</code></p>
+<doc-anchor-target id="archive">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#archive">#</doc-anchor-trigger>
+        <span>Archive</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMVVOUEhoQkpOT1VCMGMtZ0ZpOXRvU3FpclBTaTRXOTlS</code></p>
+<doc-anchor-target id="craftstuff">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#craftstuff">#</doc-anchor-trigger>
+        <span>CraftStuff</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL3UvMC9tb2JpbGUvZm9sZGVycy8xQnVybUF5Wi1pRXBEQVJYYXd5ZVltd0QyTUdIcnc0bDY/dXNwPXNoYXJpbmc=</code></p>
+<doc-anchor-target id="witchcraft-library">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#witchcraft-library">#</doc-anchor-trigger>
+        <span>Witchcraft Library</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vZG9jdW1lbnQvZC8xc1ZTcWp4VER5a1JhRkVzdWluZzlvT284ems4S0ZIRFU1akQzay1zSFdlNC8=</code></p>
+<doc-anchor-target id="public-witchcraft-library">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#public-witchcraft-library">#</doc-anchor-trigger>
+        <span>Public Witchcraft Library</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMUdpTXBNT3hQbnhnY2dYbjh1cGt4UnFURFJtQWllcDN5</code></p>
+<doc-anchor-target id="alchemy-drive">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#alchemy-drive">#</doc-anchor-trigger>
+        <span>Alchemy Drive</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56LyNGIWpCazNuQndDITNrYmNkM1liMEkxRGt3NkdDQkxZMUE=</code></p>
+<doc-anchor-target id="hellenistic-theism">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#hellenistic-theism">#</doc-anchor-trigger>
+        <span>Hellenistic Theism</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56LyNGIWdlaGhpYUtJIVBmWWx1cXBXWTR2Zm93SW1hYnpzTFE=</code></p>
+<doc-anchor-target id="grimoires">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#grimoires">#</doc-anchor-trigger>
+        <span>Grimoires</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56LyNGITFzOUUzU1pMIVBfdHluR21MalBIVVJBdWdIa243SHc=</code></p>
+<doc-anchor-target id="qsl">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#qsl">#</doc-anchor-trigger>
+        <span>QSL</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly93d3cucXNsLm5ldC93L3c3bGsvbWlzYyUyMHBkZiUyMGZpbGVzLw==</code></p>
+<doc-anchor-target id="ufo-books">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ufo-books">#</doc-anchor-trigger>
+        <span>UFO Books</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9maWxlcy5hZnUuc2UvRG93bmxvYWRzLwpodHRwczovL2RyaXZlLmdvb2dsZS5jb20vZHJpdmUvZm9sZGVycy8xdmxZNTEyaXdHMHlyVEZFM0hoYV9fbGhCWnE5emF2UUU=</code></p>
+<doc-anchor-target id="math-and-physics-books">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#math-and-physics-books">#</doc-anchor-trigger>
+        <span>Math and Physics Books</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMVozMC05RU82QjBvRXVGSFlNS1V6enpFTzZwODItZFlVCmh0dHBzOi8vZHJpdmUuZ29vZ2xlLmNvbS9kcml2ZS9mb2xkZXJzLzFqa0ZuVm83MlI4MUJTNUxabVZTMUpBem1mdzFRcEpBNg==</code></p>
+<doc-anchor-target id="library-drive">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#library-drive">#</doc-anchor-trigger>
+        <span>Library Drive</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9iYnduMElySSNmd3hjTTRZaUxKVE8tSG9pR0JLUmpn</code></p>
+<doc-anchor-target id="bitdl">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bitdl">#</doc-anchor-trigger>
+        <span>BitDL</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cDovL3MxLmJpdGRsLmlyLwpodHRwOi8vczMuYml0ZGwuaXIvCmh0dHA6Ly9zNS5iaXRkbC5pci8KaHR0cDovL3M4LmJpdGRsLmlyLwpodHRwOi8vczkuYml0ZGwuaXIvCmh0dHA6Ly9zMTAuYml0ZGwuaXIvCmh0dHA6Ly9zMTEuYml0ZGwuaXIvCmh0dHA6Ly9zMTMuYml0ZGwuaXIvCmh0dHA6Ly9zMTQuYml0ZGwuaXIvCmh0dHA6Ly9zMi5iaXRkbC5pci9FYm9vay8=</code></p>
+<doc-anchor-target id="uloz-archive">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#uloz-archive">#</doc-anchor-trigger>
+        <span>Uloz Archive</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly91bG96LnRvL2ZvbGRlci84ZnBBZzJyd0VjWWgvbmFtZS9MYXJnZS1Cb29rLUNvbGxlY3Rpb24=</code></p>
+<hr>
+<doc-anchor-target id="astronomy--physics">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#astronomy--physics">#</doc-anchor-trigger>
+        <span>Astronomy &amp; Physics</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMEIxeVNPclB4T1dKbVpHbE5Ua0V0UW5sRU0zTQ==</code></p>
+<hr>
+<doc-anchor-target id="it-books-drive">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#it-books-drive">#</doc-anchor-trigger>
+        <span>IT Books Drive</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9sbTVsZ1F4VCNRaDUyWXFFMC1rd1BfLWVXb2hNQmJ3</code></p>
+<hr>
+<doc-anchor-target id="lee-b-drive">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lee-b-drive">#</doc-anchor-trigger>
+        <span>Lee B. Drive</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL3UvMC9tb2JpbGUvZm9sZGVycy8xODN0ZjhQbVFid2dWQzdIcnhPWjVXUVB1bFZkLVVvbWk=</code></p>
+<hr>
+<doc-anchor-target id="critical-thinking">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#critical-thinking">#</doc-anchor-trigger>
+        <span>Critical Thinking</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9aTWx4aFlMQSNzRy1vcHVBRGRrTml1OS1JZGVKTzRR</code></p>
+<hr>
+<doc-anchor-target id="historical-audiobooks-collection">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#historical-audiobooks-collection">#</doc-anchor-trigger>
+        <span>Historical Audiobooks Collection</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci91dGNoeUFBSyNHVFZsMWZJTnBla0VjaDk1eGo4Rm1n</code></p>
+<hr>
+<doc-anchor-target id="history-newsboys-of-1899">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#history-newsboys-of-1899">#</doc-anchor-trigger>
+        <span>History Newsboys of 1899</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL3UvMC9tb2JpbGUvZm9sZGVycy8xMHJLdFZOZDE4aTMwbXJYd0lqRm5NTVBVQnZlS05kT08/dXNwPXNoYXJpbmc=</code></p>
+<doc-anchor-target id="madokami">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#madokami">#</doc-anchor-trigger>
+        <span>Madokami</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kb3dubG9hZC9NYWRva2FtaS5NYW5nYS4wLUUKaHR0cHM6Ly9hcmNoaXZlLm9yZy9kb3dubG9hZC9NYWRva2FtaS5NYW5nYS5GLUsKaHR0cHM6Ly9hcmNoaXZlLm9yZy9kb3dubG9hZC9NYWRva2FtaS5NYW5nYS5MLVEKaHR0cHM6Ly9hcmNoaXZlLm9yZy9kb3dubG9hZC9NYWRva2FtaS5NYW5nYS5SLVo=</code></p>
+<hr>
+<doc-anchor-target id="the-manga-library">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#the-manga-library">#</doc-anchor-trigger>
+        <span>The Manga Library</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzL21hbmdhX2xpYnJhcnk=</code></p>
+<hr>
+<doc-anchor-target id="magazine-rack">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#magazine-rack">#</doc-anchor-trigger>
+        <span>Magazine Rack</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzL21hZ2F6aW5lX3JhY2s=</code></p>
+<hr>
+<doc-anchor-target id="computer-magazines">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#computer-magazines">#</doc-anchor-trigger>
+        <span>Computer Magazines</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzL2NvbXB1dGVybWFnYXppbmVz</code></p>
+<hr>
+<doc-anchor-target id="archiveorg-newspapers">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#archiveorg-newspapers">#</doc-anchor-trigger>
+        <span>Archive.org Newspapers</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzL25ld3NwYXBlcnM=</code></p>
+<hr>
+<doc-anchor-target id="smolod">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#smolod">#</doc-anchor-trigger>
+        <span>SmolOD</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vc21vbE9E</code></p>
+<hr>
+<doc-anchor-target id="open-directory-indexes">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#open-directory-indexes">#</doc-anchor-trigger>
+        <span>Open Directory Indexes</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9zZWFyY2g/cT1zaXRlOnJlZGRpdC5jb20vci9vcGVuZGlyZWN0b3JpZXMrb2RzaG90K2FmdGVyOjIwMTgKaHR0cHM6Ly9yZWRkLml0L2x2ZHdsbQpodHRwczovL2dpdGh1Yi5jb20vc3RyYXdoYXQtcGlyYXRlcy9ub3Rlcy9ibG9iL21hc3Rlci9vcGVuZGlyZWN0b3JpZXMudHh0Cmh0dHBzOi8vYmluLmRpc3Jvb3Qub3JnLz8zMDgyZjA0MjA1YmU3YWY2I0JFNEFoc1B3V1lYZExVam1tRExSeVFOanZHNnZhSG5Ra1FBa3lDVENVcTM0Cmh0dHBzOi8vZ2lzdC5naXRodWIuY29tL0NoYXBoYXNpbG9yLzcxOGUxM2MxZjY1NGI3YjBlNDliM2I0MWU0ODU1ZjUwCmh0dHBzOi8vcmVkZC5pdC9vd2R2dzc=</code></p>
+<hr>
+<doc-anchor-target id="wlsetup-all">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#wlsetup-all">#</doc-anchor-trigger>
+        <span>WLSetup-All</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzL3dsc2V0dXAtYWxsXzIwMTgwMg==</code></p>
+<hr>
+<doc-anchor-target id="adobe-cc">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#adobe-cc">#</doc-anchor-trigger>
+        <span>Adobe CC</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vZG9jdW1lbnQvZC8xX01lMVRRelhxQ1lBU2xzN1A1WnQ1bUFTTnNQYW15TlZuWmZ1NDh0XzVZdy8=</code></p>
+<hr>
+<doc-anchor-target id="the-vintage-software-collection">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#the-vintage-software-collection">#</doc-anchor-trigger>
+        <span>The Vintage Software Collection</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzL3ZpbnRhZ2Vzb2Z0d2FyZQ==</code></p>
+<hr>
+<doc-anchor-target id="course-megadrives">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#course-megadrives">#</doc-anchor-trigger>
+        <span>Course Megadrives</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9lbEVsa0tUSSNhQ1FidFRRNzl0dTV5RV9ZRkI2X3N3Cmh0dHBzOi8vbWVnYS5uei9mb2xkZXIvcEFsMHdSS0sjRklaemJZamtUXzA5cVJUNUJTMkdYUSAKaHR0cHM6Ly9tZWdhLm56L2ZvbGRlci80dDRoaENUYSN6SWlNWkJSVkFpYkFUdEh4d1EyYl93IApodHRwczovL21lZ2EubnovZm9sZGVyL2lJc0VrYjRCIzR0ZE5IVVlUS1RKRGVJeEkyRlpFM0EgCmh0dHBzOi8vbWVnYS5uei9mb2xkZXIvc2hwejBBQ1EjdGR5YVFpOUhjVk0tb0tIOU54VmV3QSAKaHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9sbTVsZ1F4VCNRaDUyWXFFMC1rd1BfLWVXb2hNQmJ3IApodHRwczovL21lZ2EubnovZm9sZGVyL3l1NFMzQkpRI2JodEEtT0llUTJibnVNMmJQY1Uyd1EvZm9sZGVyL0hyNEdYVDRM</code></p>
+<hr>
+<doc-anchor-target id="itunesu-lectures">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#itunesu-lectures">#</doc-anchor-trigger>
+        <span>iTunesU Lectures</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzL0BreW5kaWdz</code></p>
+<hr>
+<doc-anchor-target id="udemy-course-drives">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#udemy-course-drives">#</doc-anchor-trigger>
+        <span>Udemy Course Drives</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vYmd2eW4=</code></p>
+<hr>
+<doc-anchor-target id="top-linux-interview-qas">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#top-linux-interview-qas">#</doc-anchor-trigger>
+        <span>Top Linux Interview Q&amp;A&#x27;S</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56LyNGIUsxTW5sU3pKIWZ5TGhOQTdWX20xejlKWmZQVzBhbGc=</code></p>
+<hr>
+<doc-anchor-target id="mandarin-chinese">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mandarin-chinese">#</doc-anchor-trigger>
+        <span>Mandarin Chinese</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL3UvMC9tb2JpbGUvZm9sZGVycy8xNTJvZUhRb2VxdkM5UlZNazZrSmkxaXJBbFNTcDdOVms/dXNwPXNoYXJpbmc=</code></p>
+<hr>
+<doc-anchor-target id="language-drops-premium">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#language-drops-premium">#</doc-anchor-trigger>
+        <span>Language Drops Premium</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1kcm9wcyZzcj10b3BpY3Mmc2Y9dGl0bGVvbmx5</code></p>
+<hr>
+<doc-anchor-target id="rapstudents-resources">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rapstudents-resources">#</doc-anchor-trigger>
+        <span>/r/ApStudents Resources</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL29wZW4/aWQ9MW1QVDhPOU5vdTR1ZHRVUU9sMFc4ZGs1SmdlUk5aSFNJ</code></p>
+<hr>
+<doc-anchor-target id="aqa-gcse-2019">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#aqa-gcse-2019">#</doc-anchor-trigger>
+        <span>AQA GCSE 2019</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXhJYXhmUVllUGxUVDJYeFJYWU1PalhkdXZaemFZeVA3P3VzcD1zaGFyaW5n</code></p>
+<hr>
+<doc-anchor-target id="safari-windows">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#safari-windows">#</doc-anchor-trigger>
+        <span>Safari Windows</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZpbGUvenFvRVdaYVEjcU5BTjhKblZfNzlnSUk0b2ZNczRad01BY3lkWkFRdzZHZG5nX1FFeU5Edw==</code></p>
+<hr>
+<doc-anchor-target id="win11-sounds">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#win11-sounds">#</doc-anchor-trigger>
+        <span>Win11 Sounds</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZpbGUvQ3BSa3dUckQjOU5paGVmaUZEQmlyaHd0WHFTdmpXQWhyRnpVUGNKdmVDZWVQZldoMWxtbw==</code></p>
+<hr>
+<doc-anchor-target id="winxp-service-pack-4">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#winxp-service-pack-4">#</doc-anchor-trigger>
+        <span>WinXP Service Pack 4</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMVVoMFZZanExaGNkNG9ZX3pOekVxQWFyMW00Tk8ydVRDP3VzcD1zaGFyaW5nKQ==</code></p>
+<hr>
+<doc-anchor-target id="windows-piracy-guides">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#windows-piracy-guides">#</doc-anchor-trigger>
+        <span>Windows Piracy Guides</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkub3JnL3dpbmRvd3NfcGlyYWN5Cmh0dHBzOi8vcmVudHJ5LmNvL3dpbmRvd3NfZm9yX3JldGFyZHMKaHR0cHM6Ly9yZW50cnkub3JnL2luc3RhbGx3aW5kb3dz</code></p>
+<hr>
+<doc-anchor-target id="font-collections">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#font-collections">#</doc-anchor-trigger>
+        <span>Font Collections</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZpbGUvUVVOQVNJUVojUkRSQS1RMGJWcmNhdzVpN2NoSlhES1lzU20xbWpvN0l4SVZTcU5mM2VkSQpodHRwczovL21lZ2EubnovZm9sZGVyL3d6WUZpWUpRI1FHem9oTGl2dzFhaGRFeHBzMWNRV0EKaHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8wQjdPTkVBRVh3UGFxYzJnNFVFZHpibVpFVEc4L2VkaXQ/cmVzb3VyY2VrZXk9MC1ZazM2b01ON3U5M1BzdDF4bjVfejhBCmh0dHBzOi8vZHJpdmUuZ29vZ2xlLmNvbS9kcml2ZS9mb2xkZXJzLzFhSlZLc2xLMHZfa0t4dkVkNUtWM0tTQ2ZZMGVwWE56MD91c3A9c2hhcmluZwpodHRwczovL2RyaXZlLmdvb2dsZS5jb20vZmlsZS9kLzF4N29oNzltMW9vajlCblB4RW54RWdaWTM5UlZjWHBsZS92aWV3P3VzcD1zaGFyaW5nCmh0dHBzOi8vZHJpdmUuZ29vZ2xlLmNvbS9kcml2ZS9mb2xkZXJzLzFhSlZLc2xLMHZfa0t4dkVkNUtWM0tTQ2ZZMGVwWE56MApodHRwczovL2RyaXZlLmdvb2dsZS5jb20vZmlsZS9kLzBCN0lvVmFHVU1EVnNlRnB2UTNOS1RsTnlkbWMvdmlldz9yZXNvdXJjZWtleT0wLTdpQ2dpT25YeEJ0aWxZMHRKMk5pa2cKaHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMWhQVjRvOGZteFkyQWI5dFhpODRsMHZWT1VRRWdGSWJV</code></p>
+<hr>
+<doc-anchor-target id="adguard-premium">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#adguard-premium">#</doc-anchor-trigger>
+        <span>AdGuard Premium</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9zdD0wJnNrPXQmc2Q9ZCZzcj10b3BpY3Mma2V5d29yZHM9YWRndWFyZCZzZj10aXRsZW9ubHk=</code></p>
+<hr>
+<doc-anchor-target id="grammarly-keyboard-premium">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#grammarly-keyboard-premium">#</doc-anchor-trigger>
+        <span>Grammarly Keyboard Premium</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1ncmFtbWFybHkmc3I9dG9waWNzJnNmPXRpdGxlb25seQ==</code></p>
+<hr>
+<doc-anchor-target id="ponydroid">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ponydroid">#</doc-anchor-trigger>
+        <span>PonyDroid</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1wb255ZHJvaWQmc3I9dG9waWNzJnNmPXRpdGxlb25seQ==</code></p>
+<hr>
+<doc-anchor-target id="solid-explorer">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#solid-explorer">#</doc-anchor-trigger>
+        <span>Solid Explorer</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1zb2xpZCtleHBsb3JlciZ0ZXJtcz1hbGwmYXV0aG9yPSZzYz0xJnNmPXRpdGxlb25seSZzcj10b3BpY3Mmc2s9dCZzZD1kJnN0PTAmY2g9MzAwJnQ9MCZzdWJtaXQ9U2VhcmNo</code></p>
+<hr>
+<doc-anchor-target id="photomath">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#photomath">#</doc-anchor-trigger>
+        <span>PhotoMath</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1waG90b21hdGgmdGVybXM9YWxsJmF1dGhvcj0mc2M9MSZzZj10aXRsZW9ubHkmc3I9dG9waWNzJnNrPXQmc2Q9ZCZzdD0wJmNoPTMwMCZ0PTAmc3VibWl0PVNlYXJjaA==</code></p>
+<hr>
+<doc-anchor-target id="languages--linguistics">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#languages--linguistics">#</doc-anchor-trigger>
+        <span>Languages &amp; Linguistics</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9rUUJYSEt3QSMtb3NXUkxOQ1hBc2Q2MmxuOHdLYTh3</code></p>
+<doc-anchor-target id="e-books_432">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#e-books_432">#</doc-anchor-trigger>
+        <span>E-books_432</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzL0UtYm9va3NfNDMy</code></p>
+<doc-anchor-target id="large-collection-of-useful-mega-dls">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#large-collection-of-useful-mega-dls">#</doc-anchor-trigger>
+        <span>Large Collection of Useful Mega DL&#x27;s</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9wYXN0ZWJpbi5jb20vWk10WmEySlY=</code></p>
+<doc-anchor-target id="swap">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#swap">#</doc-anchor-trigger>
+        <span>SWAP</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1zd2FwK25vK3Jvb3QmdGVybXM9YWxsJmF1dGhvcj0mc2M9MSZzZj10aXRsZW9ubHkmc3I9dG9waWNzJnNrPXQmc2Q9ZCZzdD0wJmNoPTMwMCZ0PTAmc3VibWl0PVNlYXJjaA==</code></p>
+<doc-anchor-target id="adrama-addons">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#adrama-addons">#</doc-anchor-trigger>
+        <span>ADrama Addons</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1hZHJhbWEmc3I9dG9waWNzJnNmPXRpdGxlb25seQ==</code></p>
+<doc-anchor-target id="mx-player">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mx-player">#</doc-anchor-trigger>
+        <span>MX Player</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1NeCtwbGF5ZXImYW1wO3Rlcm1zPWFsbCZhbXA7YXV0aG9yPUJhbGF0YW4mYW1wO3NjPTEmYW1wO3NmPXRpdGxlb25seSZhbXA7c3I9dG9waWNzJmFtcDtzaz10JmFtcDtzZD1kJmFtcDtzdD0wJmFtcDtjaD0zMDAmYW1wO3Q9MCZhbXA7c3VibWl0PVNlYXJjaA==</code></p>
+<doc-anchor-target id="crunchyroll-mod">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#crunchyroll-mod">#</doc-anchor-trigger>
+        <span>Crunchyroll Mod</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1jcnVuY2h5cm9sbCZzcj10b3BpY3Mmc2Y9dGl0bGVvbmx5</code></p>
+<doc-anchor-target id="ola-tv">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ola-tv">#</doc-anchor-trigger>
+        <span>OLA TV</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1vbGErdHYmYW1wO3NyPXRvcGljcyZhbXA7c2Y9dGl0bGVvbmx5</code></p>
+<doc-anchor-target id="sonyliv">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#sonyliv">#</doc-anchor-trigger>
+        <span>SonyLiv</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1Tb255TElWKyZzcj10b3BpY3Mmc2Y9dGl0bGVvbmx5</code></p>
+<doc-anchor-target id="phantomvpn">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#phantomvpn">#</doc-anchor-trigger>
+        <span>PhantomVPN</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vUGhhbnRvbVZQTmlPUw==</code></p>
+<doc-anchor-target id="spotilife">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#spotilife">#</doc-anchor-trigger>
+        <span>Spotilife</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vU3BvdGlsaWZlR3VpZGUKaHR0cHM6Ly9naXRodWIuY29tL1Nwb3RDb21waWxlZC9TcG90aWxpZmVD</code></p>
+<doc-anchor-target id="tweaked-spotify">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tweaked-spotify">#</doc-anchor-trigger>
+        <span>Tweaked Spotify</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vc3BvdGlmeUlQQQ==</code></p>
+<doc-anchor-target id="ytmusilife">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ytmusilife">#</doc-anchor-trigger>
+        <span>YTMusilife</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vWVRNdXNpY0d1aWRl</code></p>
+<doc-anchor-target id="deezelife">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#deezelife">#</doc-anchor-trigger>
+        <span>DeezeLife</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vZGVlemVycHJlbWl1bWZvcmlvcw==</code></p>
+<doc-anchor-target id="yt-tweaked-ipas">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#yt-tweaked-ipas">#</doc-anchor-trigger>
+        <span>YT Tweaked IPAs</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vWVRjcmFjaw==</code></p>
+<doc-anchor-target id="free-cloud-linux-server">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#free-cloud-linux-server">#</doc-anchor-trigger>
+        <span>Free Cloud Linux Server</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vNHN4NjQ=</code></p>
+<doc-anchor-target id="k1n013f0urs-pastebin">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#k1n013f0urs-pastebin">#</doc-anchor-trigger>
+        <span>K1n013f0ur&#x27;s Pastebin</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9wYXN0ZWJpbi5jb20vdS9rMW4wMTNmMHVy</code></p>
+<doc-anchor-target id="design-tool-zip">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#design-tool-zip">#</doc-anchor-trigger>
+        <span>Design Tool Zip</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZpbGUvRTVNd21UNVojWVAtdk1TVGNtOHZvS2piNzJfbkhzTFlIMUFHbWxpV3NiVUdYVkpoTkhERQ==</code></p>
+<doc-anchor-target id="logos--badges-bundle">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#logos--badges-bundle">#</doc-anchor-trigger>
+        <span>Logos &amp; Badges Bundle</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZpbGUvRWhVUW5KZ1QjMmxtcjBEZkNEb1kzeDRERmh0aEpvXzNpejNYUEI5RGVMam14MndCejF2cw==</code></p>
+<doc-anchor-target id="texture-collection">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#texture-collection">#</doc-anchor-trigger>
+        <span>Texture Collection</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZpbGUvSTRVeUNMaFkjdnRsN29EVjFrbGw0dnJCUkpWOGFoUWF0c0JTUG11aUJ2RjdlRmVoSk45Yw==</code></p>
+<doc-anchor-target id="pattern-collection">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pattern-collection">#</doc-anchor-trigger>
+        <span>Pattern Collection</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZpbGUvY3dkZ2tENkQjOWpHQl9BWWR0Y0tVUnlHRjM2YU1DZERCWG55bGZFVnFGWkRzOERVNFNwZw==</code></p>
+<doc-anchor-target id="watercolor-collection">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#watercolor-collection">#</doc-anchor-trigger>
+        <span>Watercolor Collection</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZpbGUvdHNNeVhUcWEjMFlpdzhCU283SXBKeXRsS0dOeTNLQ0tNa25fSDZ4M2J3NERIUm1pU1JuOA==</code></p>
+<doc-anchor-target id="retro-game-strategy-guides">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#retro-game-strategy-guides">#</doc-anchor-trigger>
+        <span>Retro Game Strategy Guides</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcmNoaXZlLm9yZy9kZXRhaWxzL1Rla2tlbjNQcmltYXNPZmZpY2lhbFN0cmF0ZWd5R3VpZGUxOTk4</code></p>
+<doc-anchor-target id="isidore">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#isidore">#</doc-anchor-trigger>
+        <span>IsIDore</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9pc2lkb3JlLmNvL0NhbGlicmVMaWJyYXJ5Lw==</code></p>
+<doc-anchor-target id="fraps">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fraps">#</doc-anchor-trigger>
+        <span>Fraps</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vZnJhcHNmdWxsZnJlZQ==</code></p>
+<doc-anchor-target id="winrar-licenses">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#winrar-licenses">#</doc-anchor-trigger>
+        <span>Winrar Licenses</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28veDMtUmF3cgpodHRwczovL2dpdGh1Yi5jb20vQW5lcXVpdC93aW5yYXItYWN0aXZhdG9yCmh0dHBzOi8vZ2l0aHViLmNvbS9iaXRjb29raWVzL3dpbnJhci1rZXlnZW4=</code></p>
+<doc-anchor-target id="modern-python-3-bootcamp-courses">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modern-python-3-bootcamp-courses">#</doc-anchor-trigger>
+        <span>Modern Python 3 Bootcamp Courses</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci96ZkpReUxyVCN1dkdBYVNiN0JzNWJnZ3pYWFdxb3NR</code></p>
+<doc-anchor-target id="canva-premium">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#canva-premium">#</doc-anchor-trigger>
+        <span>Canva Premium</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1DYW52YSsmc3I9dG9waWNzJnNmPXRpdGxlb25seQ==</code></p>
+<doc-anchor-target id="adobe-after-effects-collection">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#adobe-after-effects-collection">#</doc-anchor-trigger>
+        <span>Adobe After Effects Collection</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMTctcUZLMjZ0VnhmZHMyUy1xNXpqTVZ3YTRvODFCbV9l</code></p>
+<doc-anchor-target id="ubitterapple69-plugins">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ubitterapple69-plugins">#</doc-anchor-trigger>
+        <span>/u/BitterApple69 Plugins</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXZnQkNMZlNGbkhtQnpVRlB6b2cwd1ZkemlBRUFkaTBw</code></p>
+<doc-anchor-target id="envato-elements-collection">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#envato-elements-collection">#</doc-anchor-trigger>
+        <span>Envato Elements Collection</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9qM29FV2E2USNwLW1haW1oNVc0V0ZXT0x3VFZ3MEZnL2ZvbGRlci96cXhTMEtUWQ==</code></p>
+<doc-anchor-target id="icon-drives">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#icon-drives">#</doc-anchor-trigger>
+        <span>Icon Drives</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZpbGUvVjFObWlSeUsja0xXZVN3UDN0eDhnenVYcEp5dlZQREVYeWlzT0ljc0JtT0UzcHZkVTB5RQ==</code></p>
+<doc-anchor-target id="image-design-drives">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#image-design-drives">#</doc-anchor-trigger>
+        <span>Image Design Drives</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZpbGUveGtzaFZJQkojWkdHX2lHek9qTEZGUjhtWW1wR2xHRnRjRXNlWU16al9TSVJFZ2UtWE9sdwpodHRwczovL3VmaWxlLmlvLzk4dHU5c25z</code></p>
+<doc-anchor-target id="microsoft-office-dl-guides">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#microsoft-office-dl-guides">#</doc-anchor-trigger>
+        <span>Microsoft Office DL Guides</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vb2ZmaWNlLWd1aWRlCgpodHRwczovL3JlbnRyeS5vcmcvb2ZmaWNlZ3VpZGVmb3Jub29icwoKaHR0cHM6Ly9yZW50cnkub3JnL0NMRUFOLUlOU1RBTEwtTUlDUk9TT0ZULU9GRklDRQ==</code></p>
+<doc-anchor-target id="wallpaper-engine">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#wallpaper-engine">#</doc-anchor-trigger>
+        <span>Wallpaper Engine</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9jcy5yaW4ucnUvZm9ydW0vdmlld3RvcGljLnBocD9mPTEwJnQ9NzYwMTkmaGlsaXQ9d2FsbHBhcGVyK2VuZ2luZQpodHRwczovL2NzLnJpbi5ydS9mb3J1bS92aWV3dG9waWMucGhwP2Y9MjImdD04NjgyMSZoaWxpdD13YWxscGFwZXIrZW5naW5l</code></p>
+<doc-anchor-target id="wordpress-themes">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#wordpress-themes">#</doc-anchor-trigger>
+        <span>Wordpress Themes</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9hSm9ERmFvSSN0dEdRd0cyb3BGOFlVVDZGWWlDSVB3</code></p>
+<doc-anchor-target id="index-of-books">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#index-of-books">#</doc-anchor-trigger>
+        <span>Index of /Books</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9wYXVsYWRhdW50LmNvbS9ib29rcy8K</code></p>
+<doc-anchor-target id="mac-adobe-cc">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mac-adobe-cc">#</doc-anchor-trigger>
+        <span>Mac Adobe CC</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL0Fkb2JlWmlpL3dpa2kvZmFxLyN3aWtpX2hvd190b191c2VfYWRvYmVfemlpCmh0dHBzOi8vdGVsZWdyYS5waC9NYWNPUy1BZG9iZS1DQy1HdWlkZS0xMS0yOQ==</code></p>
+<doc-anchor-target id="modded-acestream-apk">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modded-acestream-apk">#</doc-anchor-trigger>
+        <span>Modded AceStream APK</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vYWNlc3RyZWFtLW1vZC1hcGtz</code></p>
+<doc-anchor-target id="modded-spotify-apk">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modded-spotify-apk">#</doc-anchor-trigger>
+        <span>Modded Spotify APK</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9zdD0wJnNrPXQmc2Q9ZCZzcj10b3BpY3Mma2V5d29yZHM9U3BvdGlmeSZzZj10aXRsZW9ubHk=</code></p>
+<doc-anchor-target id="spotify">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#spotify">#</doc-anchor-trigger>
+        <span>Spotify++</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZWRkLml0L3B0NXV2OQpodHRwczovL2FwcGRiLnRvL2FwcC9jeWRpYS8xOTAwMDAwNTQwCmh0dHBzOi8vaXBhc3BvdC5hcHAvY2F0ZWdvcmllcy90d2Vha2VkYXBwcy5odG1sCmh0dHBzOi8vcmVwby5oYWNreW91cmlwaG9uZS5vcmcvc3BvdGlsaWZl</code></p>
+<doc-anchor-target id="ultimate-realtek-hd-audio-driver-mod">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ultimate-realtek-hd-audio-driver-mod">#</doc-anchor-trigger>
+        <span>Ultimate Realtek HD Audio Driver Mod</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly8xZHJ2Lm1zL2YvcyFBa0d0eGlHaWd1ZFN6VkxwU2pZZHZrQXFyZWpM</code></p>
+<doc-anchor-target id="movies-cave-app">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#movies-cave-app">#</doc-anchor-trigger>
+        <span>Movies Cave App</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xQXF5U3BjUXlRQXJWVXV3YUkzNDB4WEtvcmdaa0V1TVMvdmlldz91c3A9ZHJpdmVzZGsK</code></p>
+<doc-anchor-target id="fl-studio">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fl-studio">#</doc-anchor-trigger>
+        <span>FL Studio</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly93d3cuZG93bmxvYWRoYS5jb20vP3M9Zmwrc3R1ZGlv</code></p>
+<doc-anchor-target id="cold-turkey-premium">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#cold-turkey-premium">#</doc-anchor-trigger>
+        <span>Cold Turkey Premium</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9wYXN0ZWJpbi5jb20vaGltQkVBeHM=</code></p>
+<doc-anchor-target id="flexcil-notes-pro">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#flexcil-notes-pro">#</doc-anchor-trigger>
+        <span>Flexcil Notes Pro</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1GbGV4Y2lsJnNyPXRvcGljcyZzZj10aXRsZW9ubHk=</code></p>
+<doc-anchor-target id="lossless-scaling">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lossless-scaling">#</doc-anchor-trigger>
+        <span>Lossless Scaling</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9jcy5yaW4ucnUvZm9ydW0vc2VhcmNoLnBocD9rZXl3b3Jkcz1Mb3NzbGVzcytTY2FsaW5nJnRlcm1zPWFueSZhdXRob3I9JnNjPTEmc2Y9dGl0bGVvbmx5JnNrPXQmc2Q9ZCZzcj10b3BpY3Mmc3Q9MCZjaD0zMDAmdD0wJnN1Ym1pdD1TZWFyY2g=</code></p>
+<doc-anchor-target id="ninja-warrior">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ninja-warrior">#</doc-anchor-trigger>
+        <span>Ninja Warrior</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vTmluamFXYXJyaW9y</code></p>
+<doc-anchor-target id="free-courses-by-xemu">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#free-courses-by-xemu">#</doc-anchor-trigger>
+        <span>Free Courses By Xemu</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkub3JnL0ZyZWVDb3Vyc2VzQnlYZW0g</code></p>
+<doc-anchor-target id="revival">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#revival">#</doc-anchor-trigger>
+        <span>Revival</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZXZpdmFsLmF3ZXN0cnVjay53b3JrZXJzLmRldi8KaHR0cHM6Ly9yZXZpdmFsLmF3ZXN0cnVjay53b3JrZXJzLmRldi8wOi8=</code></p>
+<doc-anchor-target id="unbeatable-banzuke">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#unbeatable-banzuke">#</doc-anchor-trigger>
+        <span>Unbeatable Banzuke</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZWRkLml0Lzg4NjV3dA==</code></p>
+<doc-anchor-target id="opendirectory">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#opendirectory">#</doc-anchor-trigger>
+        <span>OpenDirectory</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly93d3cub3BlbmRpci5jbG91ZC8=</code></p>
+<doc-anchor-target id="remini">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#remini">#</doc-anchor-trigger>
+        <span>Remini</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>IGh0dHBzOi8vZm9ydW0ubW9iaWxpc20ub3JnL3ZpZXd0b3BpYy5waHA/Zj00MjcmdD00OTU4Mzk3</code></p>
+<doc-anchor-target id="onion-directories">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#onion-directories">#</doc-anchor-trigger>
+        <span>Onion Directories</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vT25pb25EaXJlY3Rvcmllcw==</code></p>
+<doc-anchor-target id="perfect-viewer">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#perfect-viewer">#</doc-anchor-trigger>
+        <span>Perfect Viewer</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1wZXJmZWN0K3ZpZXdlciZ0ZXJtcz1hbGwmYXV0aG9yPSZzYz0xJnNmPXRpdGxlb25seSZzcj10b3BpY3Mmc2s9dCZzZD1kJnN0PTAmY2g9MzAwJnQ9MCZzdWJtaXQ9U2VhcmNo</code></p>
+<doc-anchor-target id="dns-speed-test--changer">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dns-speed-test--changer">#</doc-anchor-trigger>
+        <span>DNS Speed Test &amp; Changer</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1ETlMrU3BlZWQrVGVzdCslMjYrQ2hhbmdlciZzcj10b3BpY3Mmc2Y9dGl0bGVvbmx5</code></p>
+<doc-anchor-target id="hacked-super-mario">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#hacked-super-mario">#</doc-anchor-trigger>
+        <span>Hacked Super Mario</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cDovL3d3dy5tdXNlbzhiaXRzLmVzL25lcy9ST01TL1NJTiUyMFJFUEVUSVIvTWFyaW9zJTIwQWx0ZXJuYXRpdmUv</code></p>
+<doc-anchor-target id="rmoviegod">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rmoviegod">#</doc-anchor-trigger>
+        <span>r/moviegod</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL2E6dDVfZ2pnODcvdG9wLz90PWFsbCAKaHR0cHM6Ly9wYXN0ZWJpbi5jb20vS0NNbVdXTEY=</code></p>
+<doc-anchor-target id="beyond-compare-crack">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#beyond-compare-crack">#</doc-anchor-trigger>
+        <span>Beyond Compare Crack</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L0F6cTA5dHFj</code></p>
+<doc-anchor-target id="phototune">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#phototune">#</doc-anchor-trigger>
+        <span>PhotoTune</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvdmlld3RvcGljLnBocD9mPTQyNyZ0PTUwMjc5NTM=</code></p>
+<doc-anchor-target id="quran-course">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#quran-course">#</doc-anchor-trigger>
+        <span>Quran Course</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9RUllqd0F4RCNsNmhRSVlia3NfbEZoZl9RR0c1T253</code></p>
+<doc-anchor-target id="bangla-english-course">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bangla-english-course">#</doc-anchor-trigger>
+        <span>Bangla English Course</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9SQUFsRFN5VCNkdEs5NHJaSHFJWlZ5YXZmRjJTM2Nn</code></p>
+<doc-anchor-target id="bangla-freelancing">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bangla-freelancing">#</doc-anchor-trigger>
+        <span>Bangla Freelancing</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9BTmhDbExwSSNuR1lDR21vUV9WY2g3NFJkX2sxd1pB</code></p>
+<doc-anchor-target id="bangla-excel">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bangla-excel">#</doc-anchor-trigger>
+        <span>Bangla Excel</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9tZWdhLm56L2ZvbGRlci9OUWcyZ1JoVCNUdnV2XzRDVlpsRmJQbGNnY3d2dzRR</code></p>
+<doc-anchor-target id="proxifier-keys">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#proxifier-keys">#</doc-anchor-trigger>
+        <span>Proxifier Keys</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9naXN0LmdpdGh1Yi5jb20vZjByMzRjaGIzdDQvYTRmNTcyMzlkNzZjMjc4MjkwNjZlYWU4N2ZlM2E4Yjk=</code></p>
+<doc-anchor-target id="android-tv-spotify">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#android-tv-spotify">#</doc-anchor-trigger>
+        <span>Android TV Spotify</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS54ZGEtZGV2ZWxvcGVycy5jb20vdC9hcGstbW9kLXNwb3RpZnktYW5kcm9pZC10di1hZC1mcmVlLjM5NDg2NTYv</code></p>
+<doc-anchor-target id="producer-plug-sheet">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#producer-plug-sheet">#</doc-anchor-trigger>
+        <span>Producer Plug Sheet</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vc3ByZWFkc2hlZXRzL2QvMXljbjZHNmhpLS04OS0xZUVJQmJsMkxnbTRuSHozT055NUJJNFJJSWdkcUkv</code></p>
+<doc-anchor-target id="extreme-mirror">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#extreme-mirror">#</doc-anchor-trigger>
+        <span>Extreme Mirror</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9rYXJ0aWsxOS54dHJlbWVtaXJyb3IwLndvcmtlcnMuZGV2LzA6L0ZpbGVzLw==</code></p>
+<doc-anchor-target id="coursedl">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#coursedl">#</doc-anchor-trigger>
+        <span>CourseDL</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly93d3cuY291cnNlZGwub3JnLw==</code></p>
+<doc-anchor-target id="moo">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#moo">#</doc-anchor-trigger>
+        <span>moo</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9lZHl0amVkaGdtZGhtLmFiZmhhcXJoYm5mLndvcmtlcnMuZGV2Lw==</code></p>
+<doc-anchor-target id="battery-guru">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#battery-guru">#</doc-anchor-trigger>
+        <span>Battery Guru</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1CYXR0ZXJ5K0d1cnUmc3I9dG9waWNzJnNmPXRpdGxlb25seQ==</code></p>
+<doc-anchor-target id="notewise">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#notewise">#</doc-anchor-trigger>
+        <span>Notewise</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1ub3Rld2lzZSZzcj10b3BpY3Mmc2Y9dGl0bGVvbmx5</code></p>
+<doc-anchor-target id="wetorrent-pro">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#wetorrent-pro">#</doc-anchor-trigger>
+        <span>WeTorrent Pro</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9hcGttb2R5LmlvL2FwcHMvd2V0b3JyZW50LXRvcnJlbnQtZG93bmxvYWRlcg==</code></p>
+<doc-anchor-target id="ttrpg-books">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ttrpg-books">#</doc-anchor-trigger>
+        <span>TTRPG Books</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9wYXN0ZWJpbi5jb20vVEdkUlpjV0o=</code></p>
+<doc-anchor-target id="arquivista">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#arquivista">#</doc-anchor-trigger>
+        <span>Arquivista</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vZG9jdW1lbnQvZC9lLzJQQUNYLTF2VDNLLW1UamoxcVdkV2J3UVdFMDJfX3R0cDRvUG1yNTItbTR4ZHNaUlRRamFWYjB2UHJPM0R2NHJ2ZDhXT1BDMVVHY2tmZDgzUXpvd1VrL3B1YgoKaHR0cHM6Ly9hcmNoaXZlLm9yZy9zZWFyY2g/cXVlcnk9Y3JlYXRvciUzQSUyMkFycXVpdmlzdGEuZXhlJTIy</code></p>
+<doc-anchor-target id="bmzone">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bmzone">#</doc-anchor-trigger>
+        <span>BMzone</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9kZGwuYm16b25lLndvcmtlcnMuZGV2LzA6Lw==</code></p>
+<doc-anchor-target id="redtopia">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#redtopia">#</doc-anchor-trigger>
+        <span>Redtopia</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9naXQuZnV3YWZ1d2EubW9lL2NhaXJuL1JlZHRvcGlh</code></p>
+<doc-anchor-target id="charles-activate">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#charles-activate">#</doc-anchor-trigger>
+        <span>Charles Activate</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly93d3cuenp6bW9kZS5jb20vbXl0b29scy9jaGFybGVzLw==</code></p>
+<doc-anchor-target id="malwarebytes-prem">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#malwarebytes-prem">#</doc-anchor-trigger>
+        <span>Malwarebytes Prem</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vTUJfUHJlbWl1bQ==</code></p>
+<doc-anchor-target id="sinflix">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#sinflix">#</doc-anchor-trigger>
+        <span>Sinflix</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vc2luZmxpeA==</code></p>
+<doc-anchor-target id="kmdl">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#kmdl">#</doc-anchor-trigger>
+        <span>KMDL</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9rbWRsYmQudGsv</code></p>
+<doc-anchor-target id="wemod-pro">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#wemod-pro">#</doc-anchor-trigger>
+        <span>WeMod Pro</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>R3VpZGU6IGh0dHBzOi8vY3MucmluLnJ1L2ZvcnVtL3ZpZXd0b3BpYy5waHA/Zj0yOSZ0PTExNDkyNwpBdXRvcGF0Y2hlcjogaHR0cHM6Ly9jcy5yaW4ucnUvZm9ydW0vdmlld3RvcGljLnBocD9wPTI2NzkxNDMjcDI2NzkxNDMKLmJhdCBWZXJzaW9uOiBodHRwczovL2NzLnJpbi5ydS9mb3J1bS92aWV3dG9waWMucGhwP3A9Mjc3NzE1MyNwMjc3NzE1Mw==</code></p>
+<doc-anchor-target id="colorize-images">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#colorize-images">#</doc-anchor-trigger>
+        <span>Colorize Images</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9mb3J1bS5tb2JpbGlzbS5vcmcvc2VhcmNoLnBocD9rZXl3b3Jkcz1jb2xvcml6ZStpbWFnZXMrJnRlcm1zPWFsbCZhdXRob3I9JnNjPTEmc2Y9dGl0bGVvbmx5JnNyPXRvcGljcyZzaz10JnNkPWQmc3Q9MCZjaD0zMDAmdD0wJnN1Ym1pdD1TZWFyY2g</code></p>
+<doc-anchor-target id="duolingo-guide">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#duolingo-guide">#</doc-anchor-trigger>
+        <span>Duolingo Guide</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>aHR0cHM6Ly9yZW50cnkuY28vRHVvbGluZ29HdWlkZQ==</code></p>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../unsafesites/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Unsafe Sites</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../storage/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">STORAGE</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Base64", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>

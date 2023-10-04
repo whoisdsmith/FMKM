@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fmhy.pages.dev/sitemap.xml.gz
